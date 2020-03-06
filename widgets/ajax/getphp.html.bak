@@ -1,0 +1,36 @@
+<script>
+	function showHint(str) {
+		if (str.length == 0) {
+			document.getElementById("txtHint").innerHTML = "";
+			return;
+		} else {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function () {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
+				}
+			};
+			xmlhttp.open("GET", "/widgets/ajax/gethint.php?q=" + str, true);
+			xmlhttp.send();
+		}
+	}
+</script>
+<style type="text/css">
+	input.hint {
+		border: 1px solid #F69D3B;
+		padding-left: 3px;
+		width: 25%;
+	}
+
+	.sug {
+		margin-top: -12px;
+		margin-left: 72px;
+	}
+</style>
+<h4> ~ PHP/AJAX Form Hints</h4>
+<div class="boxed">
+	<p>Start typing a name in the input field below:</p>
+	First name: <input type="text" class="hint" onkeyup="showHint(this.value)">
+
+	<p class="sug">Suggestions: <span id="txtHint"></span></p>
+</div>

@@ -1,0 +1,108 @@
+<style type="text/css">
+
+	#pre {
+		float: right;
+		width: 50%;
+	}
+
+	td {
+		width: 130px;
+		padding:0;
+		margin:0;
+		vertical-align:top;
+	}
+
+</style>
+
+<div class="boxed row">
+	<div class="col">
+		<table>
+			<tr>
+				<td id="ford"></td>
+				<td id="bmw"></td>
+				<td id="fiat"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="col" id="pre">
+
+					<pre>
+		var myObj, i, j, x = "";
+		myObj = {
+			"name": "Adam",
+			"age": 49,
+			"cars": [
+				{"name": "Aston Martin", "models": ["Vantage", "Vanquish", "DB11"]},
+				{"name": "BMW", "models": ["320", "X5", "i9"]},
+				{"name": "Fiat", "models": ["500", "Panda"] }
+			]
+		}
+		for (i in myObj.cars) {
+			x += myObj.cars[i].name;
+				for (j in myObj.cars[i].models) {
+					x += myObj.cars[i].models[j];
+				}
+			}
+		document.getElementById("demo").innerHTML = x;
+					</pre>
+	</div>
+</div>
+<script>
+	var my1Obj, i, j, x = "";
+	my1Obj = {
+		"name": "Adam",
+		"age": 49,
+		"ford": [
+			{"name": "Aston Martin", "models": ["Vantage", "Vanquish", "DB11"]}
+
+		]
+	}
+	for (i in my1Obj.ford) {
+		x += "<h5>" + my1Obj.ford[i].name + "</h5>";
+		for (j in my1Obj.ford[i].models) {
+			x += my1Obj.ford[i].models[j] + "<br>";
+		}
+
+		document.getElementById("ford").innerHTML = x;
+	}
+
+
+	var my2Obj, i, j, x = "";
+	my2Obj = {
+		"name": "Adam",
+		"age": 49,
+
+		"bmw": [
+
+			{"name": "BMW", "models": ["320", "X5", "i9"]}
+		]
+	}
+	for (i in my2Obj.bmw) {
+		x += "<h5>" + my2Obj.bmw[i].name + "</h5>";
+		for (j in my2Obj.bmw[i].models) {
+			x += my2Obj.bmw[i].models[j] + "<br>";
+		}
+
+		document.getElementById("bmw").innerHTML = x;
+	}
+
+
+	var my3Obj, i, j, x = "";
+	my3Obj = {
+		"name": "Adam",
+		"age": 49,
+
+		"fiat": [
+
+			{"name": "Fiat", "models": ["500", "Panda", "Bella"] }
+		]
+	}
+	for (i in my3Obj.fiat) {
+		x += "<h5>" + my3Obj.fiat[i].name + "</h5>";
+		for (j in my3Obj.fiat[i].models) {
+			x += my3Obj.fiat[i].models[j] + "<br>";
+		}
+
+		document.getElementById("fiat").innerHTML = x;
+	}
+</script>
