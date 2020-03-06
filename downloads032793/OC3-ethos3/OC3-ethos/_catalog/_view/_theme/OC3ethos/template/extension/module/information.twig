@@ -1,0 +1,9 @@
+<div class="list-group">
+
+    {% for information in informations %}
+        <a class="list-group-item" style="text-align:left;" href="{{ information.href }}">{{ information.title }}</a>
+    {% endfor %}
+    <a class="list-group-item" style="text-align:left;" href="{{ contact }}">{{ text_contact }}</a>
+    <a class="list-group-item" style="text-align:left;" href="{{ sitemap }}">{{ text_sitemap }}</a>
+
+</div>

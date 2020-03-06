@@ -1,0 +1,57 @@
+///////////////////////////////////////
+///           UIDE Theme            ///
+///      Install Instructions      ///
+/// www.ui-design-engineering.com  ///
+//////////////////////////////////////
+
+Built for Opencart v. 3.0.3
+
+----------------------------
+INSTALL
+----------------------------
+These instructions are for a manual installation using FTP, cPanel or other web hosting Control Panel.
+It's advised to install locally first so you can test and fidget as necessary.
+
+1. unzip [THIS THEME].zip to a convenient location
+
+2. Copy [THIS THEME].php (just the file) from _admin/controller/extension/theme to admin/controller/extension/theme/[THIS THEME].php
+
+3. Copy en-gb.php from catalog/language/en-gb.php to catalog/language/en-gb
+
+4. Copy [THIS THEME].php (just the file) from _admin/language/en-gb/extension/theme to admin/language/en-gb/extension/theme/[THIS THEME].php
+
+5. Copy [THIS THEME].twig (just the file) from _admin/view/template/extension/theme to admin/view/template/extension/theme/[THIS THEME].twig
+
+6. Move the [THIS THEME] folder from _image/catalog to image/catalog/[THIS THEME]
+
+7. Move the [THIS THEME] folder from _catalog/view/theme to catalog/view/theme/[THIS THEME]
+
+8. Login as admin to your store: admin / #9794Coralrd
+			a) from Extensions/Extensions, select Themes from the filter dropdown
+			b) enable the [THIS THEME] theme
+			c) from System/Settings, click the edit icon for your store
+			d) select the [THIS THEME] theme from the dropdown
+			e) click the image tab to swap out the theme logo with your own logo (don't forget to click the save icon)
+			f) from your myPHPAdmin, select your database, click the Restore tab
+			g) upload the [THIS THEME].sql sql file to import the mods and extensions 
+
+----------------------------
+
+How To video is here: http://www.ui-design-engineering.com/instructions.mp4
+
+-------------------------------
+ - Notes -
+
+Theme was created using the default demo store settings. Update your database to include the new theme modules and extensions via the enclosed .sql file.
+Some very minor refactoring may be advised to accommodate customized modules not enabled in the default demo store.
+
+Feel free to email me at am@ui-design-engineering.com for any reason necessary.
+
+Thank you,
+Adam L Marsh
+
+www.ui-design-engineering.com
+www.adam-marsh.com
+www.myuikit.com
+
+----------------------------

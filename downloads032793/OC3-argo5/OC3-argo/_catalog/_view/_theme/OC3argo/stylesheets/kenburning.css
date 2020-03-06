@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    #kenburning {
+        top: 0;
+        position: relative;
+        height: 220px !important;
+    }
+    .kenburning-container img {
+        position: relative;
+        max-width: none;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+
+#kenburning {
+    width: 100%;
+    opacity: .7;
+    z-index: 1;
+    height:500px;
+    display:none;
+}
+
+.kenburning-container {
+    position:relative;
+    overflow: hidden;
+    border-radius:0;
+}
+
+.kenburning-container img {
+    position: absolute;
+    max-width: none;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.kenburning-container img.active {
+    z-index: 3;
+}
+
+.kenburning-container img.active>span.cap {
+    z-index: 4;
+    color: red;
+    float: right;
+}
+
+.kenburning-container img.last-active {
+    z-index: 2;
+}
+
+.kenburning-container img.last-active>span.cap {
+    z-index: 3;
+    color: red;
+    float: left;
+}

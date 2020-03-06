@@ -1,0 +1,22 @@
+{{ header }}
+<div id="information-information" class="wrapper-bod">
+    <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+            <li><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+        {% endfor %}
+    </ul>
+    <div class="row">{{ column_left_wide }}
+        {% if column_left_wide and column_right_wide %}
+            {% set class = 'col-sm-6' %}
+        {% elseif column_left_wide or column_right_wide %}
+            {% set class = 'col-sm-9' %}
+        {% else %}
+            {% set class = 'col-sm-12' %}
+        {% endif %}
+        <div id="content" class="content-other {{ class }}">{{ content_top }}
+            <h1>{{ heading_title }}</h1>
+
+            {{ content_bottom }}</div>
+        {{ column_right }}</div>
+</div>
+{{ footer }}

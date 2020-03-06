@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]>
+<html dir="{{ direction }}" lang="{{ lang }}" class="ie8"><![endif]-->
+<!--[if IE 9 ]>
+<html dir="{{ direction }}" lang="{{ lang }}" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="{{ direction }}" lang="{{ lang }}">
+    <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ title }}</title>
+        <base href="{{ base }}"/>
+        {% if description %}
+            <meta name="description" content="{{ description }}"/>
+        {% endif %}
+        {% if keywords %}
+            <meta name="keywords" content="{{ keywords }}"/>
+        {% endif %}
+        <link rel="icon" type="image/png" href="/catalog/view/theme/favicon.png">
+        <script src="/catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="/catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/owl.carousel.min.js"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/menuzord.js"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/jquery.easing.min.js"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/jquery.stellar.min.js"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/materialize.min.js"></script>
+        <script src="/catalog/view/theme/OC3quoi/js/animated-headline.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="/catalog/view/javascript/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen"/>
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/flexslider.css" rel="stylesheet">
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/owl.carousel.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/materialize-small-min.css" rel="stylesheet" media="screen"/>
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/quoiz.css" rel="stylesheet">
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/animated-headline-min.css" rel="stylesheet">
+        <link href="/catalog/view/theme/OC3quoi/stylesheets/shortcodes/shortcodes.css" rel="stylesheet" media="screen"/>
+
+        {% for style in styles %}
+            <link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}"/>
+        {% endfor %}
+        {% for script in scripts %}
+            <script src="{{ script }}" type="text/javascript"></script>
+        {% endfor %}
+        <script src="/catalog/view/theme/OC3quoi/js/common.js" type="text/javascript"></script>
+        {% for link in links %}
+            <link href="{{ link.href }}" rel="{{ link.rel }}"/>
+        {% endfor %}
+        {% for analytic in analytics %}
+            {{ analytic }}
+        {% endfor %}
+    </head>
+    <body>
+        <div class="se-pre-con"></div>
+
+        <header>
+            <div class="container pad-top">
+                <div class="col-md-5 col-xs-6">
+                    <div id="logo">
+                        {% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}"
+                                                               alt="{{ name }}" class="img-responsive"/>
+                            </a>{% else %}
+                            <h1><a href="{{ home }}">{{ name }}</a></h1>
+                        {% endif %}</div>
+                </div>
+                <div class="col-md-7 col-xs-6 mt30">
+                    <div class="nav pull-right">
+                        <ul class="list-inline">
+                            <li class="hidden-xs"><img src="/image/catalog/quoi-images/sale-header.png"
+                                                       class="img-responsive"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="navbar1">
+            <nav id="top">
+                <div id="top-links" class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-xs-12">{{ menu }}</div>
+                        <div class="col-lg-2 cartheader visible-lg">{{ cart }}</div>
+                        <div class="col-md-2 col-xs-4 cartheader hidden-lg">{{ cart }}</div>
+                        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs searchheader">{{ search }}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3">
+                            <ul id="mobile-social-icons" class="list-inline social-link hidden-sm hidden-xs">
+                                <li>
+                                    <a href="https://www.facebook.com/kungfurufus">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/zom-b-food">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sassmaster">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://stackoverflow.com/users/6151058/adam?tab=profile">
+                                        <i class="fa fa-stack-overflow"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <div class="nav">
+                                <ul class="list-inline my-dropdown">
+                                    <li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span
+                                                class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>
+                                    <li><a href="{{ account }}" title="{{ text_account }}"
+                                           class="dropdown-toggle" data-toggle="dropdown"><i
+                                                    class="fa fa-user"></i> <span
+                                                    class="hidden-xs hidden-sm hidden-md">{{ text_account }}</span> <span
+                                                    class="caret"></span></a>
+                                        <ul class="dropdown-menu my-dropdown">
+                                            {% if logged %}
+                                                <li class="my-dropdown"><a href="{{ account }}">{{ text_account }}</a>
+                                                </li>
+                                                <li class="my-dropdown"><a href="{{ order }}">{{ text_order }}</a></li>
+                                                {# <li><a href="{{ transaction }}">{{ text_transaction }}</a></li>#}
+                                                <li class="my-dropdown"><a href="{{ download }}">{{ text_download }}</a>
+                                                </li>
+                                                <li class="my-dropdown"><a href="{{ logout }}">{{ text_logout }}</a>
+                                                </li>
+                                            {% else %}
+                                                <li class="my-dropdown"><a href="{{ register }}">{{ text_register }}</a>
+                                                </li>
+                                                <li class="my-dropdown"><a href="{{ login }}">{{ text_login }}</a></li>
+                                            {% endif %}
+                                        </ul>
+                                    </li>
+                                    <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i
+                                                    class="fa fa-heart"></i> <span
+                                                    class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a>
+                                    </li>
+                                    {# <li><a href="{{ shopping_cart }}" title="{{ text_shopping_cart }}"><i
+                                                     class="fa fa-shopping-cart"></i> <span
+                                                     class="hidden-xs hidden-sm hidden-md">{{ text_shopping_cart }}</span></a>
+                                     </li>#}
+                                    <li><a href="{{ checkout }}" title="{{ text_checkout }}"><i
+                                                    class="fa fa-share"></i> <span
+                                                    class="hidden-xs hidden-sm hidden-md">{{ text_checkout }}</span></a>
+                                    </li>
+                                    <li><a href="{{ contact }}" title="{{ text_contact }}"><i
+                                                    class="fa fa-envelope"></i> <span
+                                                    class="hidden-xs hidden-sm hidden-md">{{ text_contact }}</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <img src="/image/catalog/quoi-images/credit-cards-small.png"/>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="materialize is a material design based mutipurpose responsive template">
+        <meta name="keywords"
+              content="material design, card style, material template, portfolio, corporate, business, creative, agency">
+        <meta name="author" content="trendytheme.net">
+        <title>HOME - thefogandwave.com</title>
+        <!--  favicon -->
+        <link rel="shortcut icon" href="resources/img/ico/favicon.png">
+        <!--  apple-touch-icon -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144"
+              href="resources/img/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114"
+              href="resources/img/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72"
+              href="resources/img/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="resources/img/ico/apple-touch-icon-57-precomposed.png">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet'
+              type='text/css'>
+        <!-- FontAwesome CSS -->
+
+	    <script src="resources/js/jquery-3.4.1.min.js"></script>
+	    <script type="text/javascript" src="resources/easy-comment/jquery.easy-comment.min.js"></script>
+	    <script type="text/javascript">
+		    jQuery(document).ready(function(){
+			    // Your other javascript code if any
+
+			    $("#comment_container").EasyComment({
+				    path:"/pages/dist/easy-comment/", //Change it to the folder where you put the easycomment files
+				    moderate:false,
+				    maxReply:5
+			    });
+			    // Your other javascript code if any
+		    });
+	    </script>
+    </head>
+
+    <body>
+
+	    <section id="comments" class="section-padding">
+		    <div class="container">
+			    <div class="text-center mb-80 wow fadeInUp">
+				    <h2 class="section-title text-uppercase">Say something</h2>
+
+				    <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum
+					    luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam
+					    nulla ac nisi rhoncus.</p>
+			    </div>
+			    <div id="comment_container" style="width:800px;height:800px;border:2px solid red"></div>
+		    </div>
+		    <!-- /.container -->
+	    </section>
+	    <hr/>
+    </body>
+</html>
