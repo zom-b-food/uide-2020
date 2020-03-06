@@ -1,0 +1,50 @@
+[
+{
+"name": "Rufus",
+"breed" : "schnoodle",
+"foods": {
+"likes": ["pig ears", "dumplings"],
+"hates": ["ham", "zucchini"]
+}
+},
+    {
+        "name": "chicken",
+        "breed" : "schnoodle",
+        "foods": {
+            "likes": ["pig ears", "dumplings"],
+            "hates": ["ham", "zucchini"]
+        }
+    },
+    {
+        "name": "peanust",
+        "breed" : "schnoodle",
+        "foods": {
+            "likes": ["pig ears", "dumplings"],
+            "hates": ["ham", "zucchini"]
+        }
+    },
+    {
+        "name": "tombo",
+        "breed" : "schnoodle",
+        "foods": {
+            "likes": ["pig ears", "dumplings"],
+            "hates": ["ham", "zucchini"]
+        }
+    },
+{
+"name": "Rutger",
+"breed" : "pug",
+"foods": {
+"likes": ["bones", "carrots"],
+"hates": ["dog food"]
+}
+},
+{
+"name": "Cookie",
+"breed" : "chihuahua",
+"foods": {
+"likes": ["chicken fingers"],
+"hates": ["cookies"]
+}
+}
+]

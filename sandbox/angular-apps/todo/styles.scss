@@ -1,0 +1,53 @@
+
+
+@import "mixins";
+@import "variables";
+
+/* ================= General ==================== */
+
+html {
+  margin:0; 
+}
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    height:100vh;
+    margin: 0;
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 500;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: 'Noto Sans', sans-serif;
+    color: $body;
+    background-color: $body-bg;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+hr.divider {
+    border-top:1px solid $seateal;
+    width:98%;
+    margin:0 auto;
+}
+
+ul li.none {
+    list-style-type:none;
+}
+
+.btn {
+    background-color:$seateal !important;
+    color:$white;
+    border:1px solid $dkocean;
+    border-radius:0;
+    margin-left:2px;
+}
