@@ -1,0 +1,154 @@
+<div id="uiAccordion">
+	<div class="accordionheader">
+		<h5>
+			Javascript [DOM] <i class="fa fa-angle-down"></i></h5>
+	</div>
+	<div class="accordionbody">
+		<ul class="fa-body">
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+					href="/inc/sandbox/visa/visa-widget.php" class="popwin body">Dynamic JS Widget</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+					href="/inc/sandbox/js-dom/callbackLoop.php" data-lity>Callback Loop</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+					href="https://jsfiddle.net/zom_b_food/t4requkj/" class="popwin body">Prototype Pattern</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+					href="https://jsfiddle.net/zom_b_food/fnypzgwn/" class="popwin body">Factory Pattern (my
+				favorite)</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+					href="/inc/sandbox/js-dom/random.php" data-lity>Random js Functions</a>
+			</li>
+		</ul>
+	</div>
+	<div class="accordionheader">
+		<h5>
+			Ajax / REST<i class="fa fa-angle-down"></i></h5>
+	</div>
+	<div class="accordionbody">
+		<ul class="fa-body">
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/ajax/rest.php"
+				                                                         data-lity>REST API Widget</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/ajax/getjson.php"
+				                                                         data-lity>Get JSON Array</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/ajax/getxml.php"
+				                                                         data-lity>Get XML</a>
+			</li>
+			<li>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/ajax/getphp.php"
+				                                                         data-lity>Get PHP</a>
+			</li>
+		</ul>
+	</div>
+	<!-- <div class="accordionheader">
+		<h5>
+					Angular.js<i class="fa fa-angle-down"></i></h5>
+	  </div>
+	  <div class="accordionbody">
+		<ul class="fa-body">
+		  <li>
+			<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/angular-apps/angular-json/zoo.php" data-lity>Angular JSON App</a>
+		  </li>
+		  <li>
+			<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/sandbox/angular-apps/angular-form/messages.php" class="popwin body">Dynamic Angular Form</a>
+		  </li>
+		</ul>
+	  </div>-->
+	<div class="accordionheader">
+		<h5>
+			Forms<i class="fa fa-angle-down"></i></h5>
+	</div>
+	<div class="accordionbody">
+		<div class="row">
+			<div class="col s6">
+				<ul class="fa-body">
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/invisible.html" data-lity>Invisible</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/attribute.html" data-lity>Attribute</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/file.html" data-lity>File</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/ajaxSubmit.html" data-lity>Ajax PHP Submit</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/choice.html" data-lity>Choice</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/collapse.html" data-lity>Collapse</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col s6">
+				<ul class="fa-body">
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/dynamic.html" data-lity>Dynamic 1</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/dynamic2.html" data-lity>Dynamic 2</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/tab.html" data-lity>Tab</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/dynamic.html" data-lity>Dynamic</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/mailgun.html" data-lity>Mailgun</a>
+					</li>
+					<li>
+						<i class="fa fa-chevron-right" aria-hidden="true"></i><a
+							href="/inc/sandbox/forms/typehead.html" data-lity>Typeahead</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="links-sites">
+	<a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+	<a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+	<a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+	<a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles www.irisandpith.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles
+		http://www.irisandpith.com</a>
+	<a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+	<a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+</div>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script>
+	$("#uiAccordion").accordion({
+		heightStyle: "content",
+		active: 0,
+		collapsible: true,
+		header: "div.accordionheader"
+	});
+</script>
