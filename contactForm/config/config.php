@@ -2,11 +2,11 @@
 
 return [
     'subject' => [
-        'prefix' => '[Contact Form] - uide'
+        'prefix' => '[uide.com Contact Form]'
     ],
     'emails' => [
         'to'   => 'am@ui-design-engineering.com',
-        'from' => '[Contact Form from uide]'
+        'from' => '[Contact Form] from uide.com'
     ],
     'messages' => [
         'error'   => 'There was an error sending your message, please try again later.',

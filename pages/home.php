@@ -13,8 +13,8 @@
     <meta name='apple-touch-fullscreen' content='yes'>
     <meta name='apple-mobile-web-app-status-bar-style' content='black'>
     <meta name='format-detection' content='telephone=no'>
-    <link rel="dns-prefetch" href="http://www.adam-marsh.com/">
-    <title>Adam L Marsh - adam-marsh.com</title>
+    <link rel="dns-prefetch" href="http://www.ui-design-engineering.com/">
+    <title>Adam L Marsh - ui-design-engineering.com</title>
 
     <?php include '../sitewide/globals-top.php'; ?>
 
@@ -105,7 +105,7 @@
         <hr />
         <section id="contact" class="scrollspy animatedParent section-padding banner-4 parallax-bg bg-fixed overlay"
             data-stellar-background-ratio="0.5">
-            <?php include '../inc/contact.php'; ?>
+            <?php include '../inc/reachout.php'; ?>
         </section>
         <hr />
         <section style="padding-top:0;text-align:center;">
