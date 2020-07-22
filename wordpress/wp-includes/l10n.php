@@ -772,7 +772,7 @@ function load_default_textdomain( $locale = null ) {
  *                                      Default false.
  * @param string|false $plugin_rel_path Optional. Relative path to WP_PLUGIN_DIR where the .mo file resides.
  *                                      Default false.
- * @return bool True when textdomain is successfully loaded, false otherwise.
+ * @return bool True when textdomain is successfuly loaded, false otherwise.
  */
 function load_plugin_textdomain( $domain, $deprecated = false, $plugin_rel_path = false ) {
 	/**
@@ -813,7 +813,7 @@ function load_plugin_textdomain( $domain, $deprecated = false, $plugin_rel_path 
  * @param string $domain             Text domain. Unique identifier for retrieving translated strings.
  * @param string $mu_plugin_rel_path Optional. Relative to `WPMU_PLUGIN_DIR` directory in which the .mo
  *                                   file resides. Default empty string.
- * @return bool True when textdomain is successfully loaded, false otherwise.
+ * @return bool True when textdomain is successfuly loaded, false otherwise.
  */
 function load_muplugin_textdomain( $domain, $mu_plugin_rel_path = '' ) {
 	/** This filter is documented in wp-includes/l10n.php */
@@ -845,7 +845,7 @@ function load_muplugin_textdomain( $domain, $mu_plugin_rel_path = '' ) {
  * @param string $domain Text domain. Unique identifier for retrieving translated strings.
  * @param string $path   Optional. Path to the directory containing the .mo file.
  *                       Default false.
- * @return bool True when textdomain is successfully loaded, false otherwise.
+ * @return bool True when textdomain is successfuly loaded, false otherwise.
  */
 function load_theme_textdomain( $domain, $path = false ) {
 	/**
@@ -885,7 +885,7 @@ function load_theme_textdomain( $domain, $path = false ) {
  * @param string $domain Text domain. Unique identifier for retrieving translated strings.
  * @param string $path   Optional. Path to the directory containing the .mo file.
  *                       Default false.
- * @return bool True when the theme textdomain is successfully loaded, false otherwise.
+ * @return bool True when the theme textdomain is successfuly loaded, false otherwise.
  */
 function load_child_theme_textdomain( $domain, $path = false ) {
 	if ( ! $path ) {
@@ -1080,7 +1080,7 @@ function load_script_translations( $file, $handle, $domain ) {
  * @global MO[] $l10n_unloaded An array of all text domains that have been unloaded again.
  *
  * @param string $domain Text domain. Unique identifier for retrieving translated strings.
- * @return bool True when the textdomain is successfully loaded, false otherwise.
+ * @return bool True when the textdomain is successfuly loaded, false otherwise.
  */
 function _load_textdomain_just_in_time( $domain ) {
 	global $l10n_unloaded;

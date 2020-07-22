@@ -108,7 +108,7 @@ if ( ! defined( 'WP_ALLOW_REPAIR' ) || ! WP_ALLOW_REPAIR ) {
 			echo '<br />&nbsp;&nbsp;&nbsp;&nbsp;';
 			if ( 'OK' == $check->Msg_text ) {
 				/* translators: %s: table name */
-				printf( __( 'Successfully repaired the %s table.' ), "<code>$table</code>" );
+				printf( __( 'successfuly repaired the %s table.' ), "<code>$table</code>" );
 			} else {
 				/* translators: 1: table name, 2: error message, */
 				echo sprintf( __( 'Failed to repair the %1$s table. Error: %2$s' ), "<code>$table</code>", "<code>$check->Msg_text</code>" ) . '<br />';
@@ -130,7 +130,7 @@ if ( ! defined( 'WP_ALLOW_REPAIR' ) || ! WP_ALLOW_REPAIR ) {
 				echo '<br />&nbsp;&nbsp;&nbsp;&nbsp;';
 				if ( 'OK' == $check->Msg_text || 'Table is already up to date' == $check->Msg_text ) {
 					/* translators: %s: table name */
-					printf( __( 'Successfully optimized the %s table.' ), "<code>$table</code>" );
+					printf( __( 'successfuly optimized the %s table.' ), "<code>$table</code>" );
 				} else {
 					/* translators: 1: table name, 2: error message, */
 					printf( __( 'Failed to optimize the %1$s table. Error: %2$s' ), "<code>$table</code>", "<code>$check->Msg_text</code>" );

@@ -1984,7 +1984,7 @@ class WP_Site_Health {
 
 		return (object) array(
 			'status'  => 'good',
-			'message' => __( 'The loopback request to your site completed successfully.' ),
+			'message' => __( 'The loopback request to your site completed successfuly.' ),
 		);
 	}
 }

@@ -3045,7 +3045,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a page has been successfully deleted via XML-RPC.
+		 * Fires after a page has been successfuly deleted via XML-RPC.
 		 *
 		 * @since 3.4.0
 		 *
@@ -3346,7 +3346,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a new category has been successfully created via XML-RPC.
+		 * Fires after a new category has been successfuly created via XML-RPC.
 		 *
 		 * @since 3.4.0
 		 *
@@ -3395,7 +3395,7 @@ class wp_xmlrpc_server extends IXR_Server {
 
 		if ( true == $status ) {
 			/**
-			 * Fires after a category has been successfully deleted via XML-RPC.
+			 * Fires after a category has been successfuly deleted via XML-RPC.
 			 *
 			 * @since 3.4.0
 			 *
@@ -3637,7 +3637,7 @@ class wp_xmlrpc_server extends IXR_Server {
 
 		if ( $status ) {
 			/**
-			 * Fires after a comment has been successfully deleted via XML-RPC.
+			 * Fires after a comment has been successfuly deleted via XML-RPC.
 			 *
 			 * @since 3.4.0
 			 *
@@ -3748,7 +3748,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a comment has been successfully updated via XML-RPC.
+		 * Fires after a comment has been successfuly updated via XML-RPC.
 		 *
 		 * @since 3.4.0
 		 *
@@ -3885,7 +3885,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a new comment has been successfully created via XML-RPC.
+		 * Fires after a new comment has been successfuly created via XML-RPC.
 		 *
 		 * @since 3.4.0
 		 *
@@ -4991,7 +4991,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		$this->attach_uploads( $post_ID, $post_content );
 
 		/**
-		 * Fires after a new post has been successfully created via the XML-RPC Blogger API.
+		 * Fires after a new post has been successfuly created via the XML-RPC Blogger API.
 		 *
 		 * @since 3.4.0
 		 *
@@ -5069,7 +5069,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		$this->attach_uploads( $actual_post['ID'], $postdata['post_content'] );
 
 		/**
-		 * Fires after a post has been successfully updated via the XML-RPC Blogger API.
+		 * Fires after a post has been successfuly updated via the XML-RPC Blogger API.
 		 *
 		 * @since 3.4.0
 		 *
@@ -5127,7 +5127,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a post has been successfully deleted via the XML-RPC Blogger API.
+		 * Fires after a post has been successfuly deleted via the XML-RPC Blogger API.
 		 *
 		 * @since 3.4.0
 		 *
@@ -5477,7 +5477,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a new post has been successfully created via the XML-RPC MovableType API.
+		 * Fires after a new post has been successfuly created via the XML-RPC MovableType API.
 		 *
 		 * @since 3.4.0
 		 *
@@ -5859,7 +5859,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		}
 
 		/**
-		 * Fires after a post has been successfully updated via the XML-RPC MovableType API.
+		 * Fires after a post has been successfuly updated via the XML-RPC MovableType API.
 		 *
 		 * @since 3.4.0
 		 *

@@ -423,7 +423,7 @@ class WP_Recovery_Mode {
 	 * @since 5.2.0
 	 *
 	 * @param array $error Error that was triggered.
-	 * @return bool True if the error was stored successfully, false otherwise.
+	 * @return bool True if the error was stored successfuly, false otherwise.
 	 */
 	protected function store_error( $error ) {
 		$extension = $this->get_extension_for_error( $error );

@@ -84,7 +84,7 @@ if ( isset( $_GET['action'] ) ) {
 		}
 		iframe_header( __( 'Plugin Reactivation' ), true );
 		if ( isset( $_GET['success'] ) ) {
-			echo '<p>' . __( 'Plugin reactivated successfully.' ) . '</p>';
+			echo '<p>' . __( 'Plugin reactivated successfuly.' ) . '</p>';
 		}
 
 		if ( isset( $_GET['failure'] ) ) {

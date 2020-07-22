@@ -44,7 +44,7 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 		/* translators: %s: Title of an update */
 		$this->upgrader->strings['skin_update_failed'] = __( 'The update of %s failed.' );
 		/* translators: %s: Title of an update */
-		$this->upgrader->strings['skin_update_successful'] = __( '%s updated successfully.' );
+		$this->upgrader->strings['skin_update_successful'] = __( '%s updated successfuly.' );
 		$this->upgrader->strings['skin_upgrade_end']       = __( 'All updates have been completed.' );
 	}
 

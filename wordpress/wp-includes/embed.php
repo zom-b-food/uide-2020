@@ -148,7 +148,7 @@ function wp_oembed_add_provider( $format, $provider, $regex = false ) {
  * @see WP_oEmbed
  *
  * @param string $format The URL format for the oEmbed provider to remove.
- * @return bool Was the provider removed successfully?
+ * @return bool Was the provider removed successfuly?
  */
 function wp_oembed_remove_provider( $format ) {
 	if ( did_action( 'plugins_loaded' ) ) {

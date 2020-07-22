@@ -245,7 +245,7 @@ switch ( $action ) {
 		check_admin_referer( 'delete-menu_item_' . $menu_item_id );
 
 		if ( is_nav_menu_item( $menu_item_id ) && wp_delete_post( $menu_item_id, true ) ) {
-			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'The menu item has been successfully deleted.' ) . '</p></div>';
+			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'The menu item has been successfuly deleted.' ) . '</p></div>';
 		}
 		break;
 
@@ -266,7 +266,7 @@ switch ( $action ) {
 		if ( is_wp_error( $deletion ) ) {
 			$messages[] = '<div id="message" class="error notice is-dismissible"><p>' . $deletion->get_error_message() . '</p></div>';
 		} else {
-			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'The menu has been successfully deleted.' ) . '</p></div>';
+			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'The menu has been successfuly deleted.' ) . '</p></div>';
 		}
 		break;
 
@@ -285,7 +285,7 @@ switch ( $action ) {
 		}
 
 		if ( empty( $deletion_error ) ) {
-			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'Selected menus have been successfully deleted.' ) . '</p></div>';
+			$messages[] = '<div id="message" class="updated notice is-dismissible"><p>' . __( 'Selected menus have been successfuly deleted.' ) . '</p></div>';
 		}
 		break;
 

@@ -717,24 +717,24 @@ function wp_print_admin_notice_templates() {
 						<# if ( 'plugin' === data.type ) { #>
 							<?php
 							/* translators: %s: Number of plugins */
-							printf( __( '%s plugin successfully updated.' ), '{{ data.successes }}' );
+							printf( __( '%s plugin successfuly updated.' ), '{{ data.successes }}' );
 							?>
 						<# } else { #>
 							<?php
 							/* translators: %s: Number of themes */
-							printf( __( '%s theme successfully updated.' ), '{{ data.successes }}' );
+							printf( __( '%s theme successfuly updated.' ), '{{ data.successes }}' );
 							?>
 						<# } #>
 					<# } else { #>
 						<# if ( 'plugin' === data.type ) { #>
 							<?php
 							/* translators: %s: Number of plugins */
-							printf( __( '%s plugins successfully updated.' ), '{{ data.successes }}' );
+							printf( __( '%s plugins successfuly updated.' ), '{{ data.successes }}' );
 							?>
 						<# } else { #>
 							<?php
 							/* translators: %s: Number of themes */
-							printf( __( '%s themes successfully updated.' ), '{{ data.successes }}' );
+							printf( __( '%s themes successfuly updated.' ), '{{ data.successes }}' );
 							?>
 						<# } #>
 					<# } #>
@@ -812,7 +812,7 @@ function wp_print_update_row_templates() {
 					<?php
 					printf(
 						/* translators: %s: Plugin name */
-						_x( '%s was successfully deleted.', 'plugin' ),
+						_x( '%s was successfuly deleted.', 'plugin' ),
 						'<strong>{{{ data.name }}}</strong>'
 					);
 					?>
@@ -820,7 +820,7 @@ function wp_print_update_row_templates() {
 					<?php
 					printf(
 						/* translators: %s: Theme name */
-						_x( '%s was successfully deleted.', 'theme' ),
+						_x( '%s was successfuly deleted.', 'theme' ),
 						'<strong>{{{ data.name }}}</strong>'
 					);
 					?>

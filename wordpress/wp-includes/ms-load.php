@@ -289,7 +289,7 @@ function get_site_by_path( $domain, $path, $segments = null ) {
  * @param string $path      The requested path.
  * @param bool   $subdomain Optional. Whether a subdomain (true) or subdirectory (false) configuration.
  *                          Default false.
- * @return bool|string True if bootstrap successfully populated `$current_blog` and `$current_site`.
+ * @return bool|string True if bootstrap successfuly populated `$current_blog` and `$current_site`.
  *                     False if bootstrap could not be properly completed.
  *                     Redirect URL if parts exist, but the request as a whole can not be fulfilled.
  */

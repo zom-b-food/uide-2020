@@ -51,7 +51,7 @@ class Theme_Upgrader extends WP_Upgrader {
 		$this->strings['remove_old']          = __( 'Removing the old version of the theme&#8230;' );
 		$this->strings['remove_old_failed']   = __( 'Could not remove the old theme.' );
 		$this->strings['process_failed']      = __( 'Theme update failed.' );
-		$this->strings['process_success']     = __( 'Theme updated successfully.' );
+		$this->strings['process_success']     = __( 'Theme updated successfuly.' );
 	}
 
 	/**
@@ -67,16 +67,16 @@ class Theme_Upgrader extends WP_Upgrader {
 		$this->strings['installing_package']  = __( 'Installing the theme&#8230;' );
 		$this->strings['no_files']            = __( 'The theme contains no files.' );
 		$this->strings['process_failed']      = __( 'Theme installation failed.' );
-		$this->strings['process_success']     = __( 'Theme installed successfully.' );
+		$this->strings['process_success']     = __( 'Theme installed successfuly.' );
 		/* translators: 1: theme name, 2: version */
-		$this->strings['process_success_specific'] = __( 'Successfully installed the theme <strong>%1$s %2$s</strong>.' );
+		$this->strings['process_success_specific'] = __( 'successfuly installed the theme <strong>%1$s %2$s</strong>.' );
 		$this->strings['parent_theme_search']      = __( 'This theme requires a parent theme. Checking if it is installed&#8230;' );
 		/* translators: 1: theme name, 2: version */
 		$this->strings['parent_theme_prepare_install'] = __( 'Preparing to install <strong>%1$s %2$s</strong>&#8230;' );
 		/* translators: 1: theme name, 2: version */
 		$this->strings['parent_theme_currently_installed'] = __( 'The parent theme, <strong>%1$s %2$s</strong>, is currently installed.' );
 		/* translators: 1: theme name, 2: version */
-		$this->strings['parent_theme_install_success'] = __( 'Successfully installed the parent theme, <strong>%1$s %2$s</strong>.' );
+		$this->strings['parent_theme_install_success'] = __( 'successfuly installed the parent theme, <strong>%1$s %2$s</strong>.' );
 		/* translators: %s: theme name */
 		$this->strings['parent_theme_not_found'] = sprintf( __( '<strong>The parent theme could not be found.</strong> You will need to install the parent theme, %s, before you can use this child theme.' ), '<strong>%s</strong>' );
 	}

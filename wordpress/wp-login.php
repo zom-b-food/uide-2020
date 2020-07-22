@@ -971,7 +971,7 @@ switch ( $action ) {
 
 		if ( ! is_wp_error( $user ) && ! $reauth ) {
 			if ( $interim_login ) {
-				$message       = '<p class="message">' . __( 'You have logged in successfully.' ) . '</p>';
+				$message       = '<p class="message">' . __( 'You have logged in successfuly.' ) . '</p>';
 				$interim_login = 'success';
 				login_header( '', $message );
 				?>
@@ -1032,7 +1032,7 @@ switch ( $action ) {
 			} elseif ( isset( $_GET['checkemail'] ) && 'registered' == $_GET['checkemail'] ) {
 				$errors->add( 'registered', __( 'Registration complete. Please check your email.' ), 'message' );
 			} elseif ( strpos( $redirect_to, 'about.php?updated' ) ) {
-				$errors->add( 'updated', __( '<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new.' ), 'message' );
+				$errors->add( 'updated', __( '<strong>You have successfuly updated WordPress!</strong> Please log back in to see what&#8217;s new.' ), 'message' );
 			} elseif ( WP_Recovery_Mode_Link_Service::LOGIN_ACTION_ENTERED === $action ) {
 				$errors->add( 'enter_recovery_mode', __( 'Recovery Mode Initialized. Please log in to continue.' ), 'message' );
 			}

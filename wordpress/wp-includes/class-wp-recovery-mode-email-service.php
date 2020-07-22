@@ -95,7 +95,7 @@ final class WP_Recovery_Mode_Email_Service {
 	 * @param array $error      Error details from {@see error_get_last()}
 	 * @param array $extension  Extension that caused the error.
 	 *
-	 * @return bool Whether the email was sent successfully.
+	 * @return bool Whether the email was sent successfuly.
 	 */
 	private function send_recovery_mode_email( $rate_limit, $error, $extension ) {
 

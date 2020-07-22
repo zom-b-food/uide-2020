@@ -11,6 +11,6 @@ $sFileType = $_FILES['image_file']['type'];
 $sFileSize = bytesToSize1024($_FILES['image_file']['size'], 1);
 
 echo <<<EOF
-<p>Your file has been successfully received.</p>
+<p>Your file has been successfuly received.</p>
 
 

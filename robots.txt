@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Allow: /sitemap.htm
-Sitemap: http://www.milkandbourbon.com/sitemap.xml
+Allow: /sitemap.xml
+Sitemap: http://www.ui-design-engineering.com/sitemap.xml

@@ -376,7 +376,7 @@ class WP_Automatic_Updater {
 			if ( is_wp_error( $upgrade_result ) ) {
 				$skin->error( __( 'Installation Failed' ), $upgrade_result );
 			} else {
-				$skin->feedback( __( 'WordPress updated successfully' ) );
+				$skin->feedback( __( 'WordPress updated successfuly' ) );
 			}
 		}
 
@@ -845,7 +845,7 @@ class WP_Automatic_Updater {
 			$result = $this->update_results['core'][0];
 			if ( $result->result && ! is_wp_error( $result->result ) ) {
 				/* translators: %s: WordPress core version */
-				$body[] = sprintf( __( 'SUCCESS: WordPress was successfully updated to %s' ), $result->name );
+				$body[] = sprintf( __( 'SUCCESS: WordPress was successfuly updated to %s' ), $result->name );
 			} else {
 				/* translators: %s: WordPress core version */
 				$body[] = sprintf( __( 'FAILED: WordPress failed to update to %s' ), $result->name );
@@ -862,9 +862,9 @@ class WP_Automatic_Updater {
 			$success_items = wp_list_filter( $this->update_results[ $type ], array( 'result' => true ) );
 			if ( $success_items ) {
 				$messages = array(
-					'plugin'      => __( 'The following plugins were successfully updated:' ),
-					'theme'       => __( 'The following themes were successfully updated:' ),
-					'translation' => __( 'The following translations were successfully updated:' ),
+					'plugin'      => __( 'The following plugins were successfuly updated:' ),
+					'theme'       => __( 'The following themes were successfuly updated:' ),
+					'translation' => __( 'The following translations were successfuly updated:' ),
 				);
 
 				$body[] = $messages[ $type ];

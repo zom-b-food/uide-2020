@@ -3027,7 +3027,7 @@ class PHPMailer
      * @param string $encoding File encoding (see $Encoding).
      * @param string $type File MIME type.
      * @param string $disposition Disposition to use
-     * @return boolean True on successfully adding an attachment
+     * @return boolean True on successfuly adding an attachment
      */
     public function addEmbeddedImage($path, $cid, $name = '', $encoding = 'base64', $type = '', $disposition = 'inline')
     {
@@ -3072,7 +3072,7 @@ class PHPMailer
      * @param string $encoding File encoding (see $Encoding).
      * @param string $type MIME type.
      * @param string $disposition Disposition to use
-     * @return boolean True on successfully adding an attachment
+     * @return boolean True on successfuly adding an attachment
      */
     public function addStringEmbeddedImage(
         $string,

@@ -188,7 +188,7 @@ function wp_register_script( $handle, $src, $deps = array(), $ver = false, $in_f
  * @param string $object_name Name for the JavaScript object. Passed directly, so it should be qualified JS variable.
  *                            Example: '/[a-zA-Z0-9_]+/'.
  * @param array $l10n         The data itself. The data can be either a single or multi-dimensional array.
- * @return bool True if the script was successfully localized, false otherwise.
+ * @return bool True if the script was successfuly localized, false otherwise.
  */
 function wp_localize_script( $handle, $object_name, $l10n ) {
 	global $wp_scripts;
@@ -214,7 +214,7 @@ function wp_localize_script( $handle, $object_name, $l10n ) {
  * @param string $handle Script handle the textdomain will be attached to.
  * @param string $domain Optional. Text domain. Default 'default'.
  * @param string $path   Optional. The full file path to the directory containing translation files.
- * @return bool True if the text domain was successfully localized, false otherwise.
+ * @return bool True if the text domain was successfuly localized, false otherwise.
  */
 function wp_set_script_translations( $handle, $domain = 'default', $path = null ) {
 	global $wp_scripts;

@@ -11,10 +11,8 @@
     <!-- Heading & Description -->
     <!--Grid row-->
     <div class="row no-gutter">
-        <div class="col-md-1 col-sm-6">
-            &nbsp;
-        </div>
-        <div class="col-md-2 col-sm-6">
+
+        <div class="col-md-3 col-sm-6">
             <div class="featured-box secondary-color-trans text-center z-depth-1">
                 <div class="featured-wrapper">
                     <div class="intro-header">
@@ -35,7 +33,7 @@
             <!-- /.featured-box  -->
         </div>
         <!-- /.col-md-3 -->
-        <div class="col-md-2 col-sm-6">
+        <div class="col-md-3 col-sm-6">
             <div class="featured-box primary-color-trans text-center z-depth-1">
                 <div class="featured-wrapper">
                     <div class="intro-header">
@@ -45,8 +43,8 @@
                     <div class="content white-text">
                         <ul>
                             <li>Color Palette</li>
-                            <li>Typography</li>
-                            <li>Images</li>
+                            <li>Wireframing</li>
+                            <li>Typography &amp; Images</li>
                             <li>User Interactions</li>
                         </ul>
                     </div>
@@ -56,28 +54,8 @@
             <!-- /.featured-box  -->
         </div>
         <!-- /.col-md-3 -->
-        <div class="col-md-2 col-sm-6">
-            <div class="featured-box secondary-color-trans text-center z-depth-1">
-                <div class="featured-wrapper">
-                    <div class="intro-header">
-                        <i class="material-icons white-text">&#xe3e9</i>
-                        <h2 class="white-text">Wireframing</h2>
-                    </div>
-                    <div class="content white-text">
-                        <ul>
-                            <li>Content Flow</li>
-                            <li>Responsiveness</li>
-                            <li>Tooling</li>
-                            <li>User Interactions</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.featured-wrapper -->
-            </div>
-            <!-- /.featured-box  -->
-        </div>
-        <!-- /.col-md-3 -->
-        <div class="col-md-2 col-sm-6">
+
+        <div class="col-md-3 col-sm-6">
             <div class="featured-box primary-color-trans text-center z-depth-1">
                 <div class="featured-wrapper">
                     <div class="intro-header">
@@ -88,7 +66,7 @@
                         <ul>
                             <li>HTML, CSS/SASS, Javascript</li>
                             <li>Responsiveness</li>
-                            <li>Content Flow</li>
+                            <li>Content Flow &amp; Positioning</li>
                             <li>User Interactions</li>
                         </ul>
                     </div>
@@ -97,7 +75,7 @@
             </div>
             <!-- /.featured-box  -->
         </div>
-        <div class="col-md-2 col-sm-6">
+        <div class="col-md-3 col-sm-6">
             <div class="featured-box secondary-color-trans text-center z-depth-1">
                 <div class="featured-wrapper">
                     <div class="intro-header">
@@ -106,7 +84,8 @@
                     </div>
                     <div class="content white-text">
                         <ul>
-                            <li>MVC buildout, REST</li>
+                            <li>MVC buildout, REST, AJAX</li>
+                            <li>App Configuration</li>
                             <li>Data Binding</li>
                             <li>Modules &amp; Components
                             <li>Unit Testing</li>
@@ -117,9 +96,7 @@
             </div>
             <!-- /.featured-box  -->
         </div>
-        <div class="col-md-1 col-sm-6">
-            &nbsp;
-        </div>
+
     </div>
     <!--Grid row-->
     <hr class="mb-5">
@@ -139,7 +116,7 @@
                 <!--First slide-->
                 <div class="carousel-item active">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                 <div class="icon">
                                     <i class="material-icons colored brand-icon">&#xe90d</i>
@@ -156,30 +133,13 @@
                             <!-- /.featured-item -->
                         </div>
                         <!-- /.col-md-4 -->
-                        <div class="col-md-4">
-                            <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                                <div class="icon">
-                                    <i class="material-icons colored brand-icon">&#xe8b8</i>
-                                </div>
-                                <div class="desc">
-                                    <h2>Second...</h2>
-                                    <p>Plan the best approach to introduce your product to
-                                        your
-                                        intended user. Come up with some A/B testing
-                                        scenarios.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- /.featured-item -->
-                        </div>
-                        <!-- /.col-md-4 -->
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                 <div class="icon">
                                     <i class="material-icons colored brand-icon">&#xe886</i>
                                 </div>
                                 <div class="desc">
-                                    <h2>Third...</h2>
+                                    <h2>Second...</h2>
                                     <p>Begin thinking about branding. Come up with a
                                         style-guide
                                         and a design specs your team will understand.</p>
@@ -195,50 +155,38 @@
                 <!--Second slide-->
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                 <div class="icon">
                                     <i class="material-icons colored brand-icon">&#xe433</i>
                                 </div>
                                 <div class="desc">
-                                    <h2>Fourth...</h2>
+                                    <h2>Third...</h2>
                                     <p>Create a wireframe with all pertinent elements and
                                         controls
-                                        you need per page and sitewide.</p>
+                                        you need per page and sitewide.
+                                        Build a prototype your developers can use, like a
+                                        working, fully functional app consisting of
+                                        HTML/PHP/JSP, Javascript, JQuery, Sassified CSS
+                                        and
+                                        compressed images too. </p>
                                 </div>
                             </div>
                             <!-- /.featured-item -->
                         </div>
                         <!-- /.col-md-4 -->
-                        <div class="col-md-4">
-                            <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
-                                <div class="icon">
-                                    <i class="material-icons colored brand-icon">&#xe80e</i>
-                                </div>
-                                <div class="desc">
-                                    <h2>Fifth...</h2>
-                                    <p>Break out Photoshop (or Sketch for Mac users), and
-                                        create
-                                        working layer comps. Pick out the best imagery and
-                                        put
-                                        it all together on paper.</p>
-                                </div>
-                            </div>
-                            <!-- /.featured-item -->
-                        </div>
-                        <!-- /.col-md-4 -->
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="featured-item hover-outline brand-hover radius-4 equal-height-column">
                                 <div class="icon">
                                     <i class="material-icons colored brand-icon">&#xe8be</i>
                                 </div>
                                 <div class="desc">
-                                    <h2>And Sixth...</h2>
-                                    <p>Build a prototype your developers can use, like a
-                                        working, fully functional app consisting of
-                                        HTML/PHP/JSP, Javascript, JQuery, Sassified CSS
-                                        and
-                                        compressed images too. </p>
+                                    <h2>Fourth...</h2>
+                                    <p>Integrate your prototype into your Dev Stack, e.g. Angular, Bootstrap, SASS,
+                                        Webpack, Node, Karma, et cetera. setup
+                                        your repo such as Github and lock down branching, merging, tracking, and pull
+                                        request,
+                                        processes. Work out a testing and release strategy.</p>
                                 </div>
                             </div>
                             <!-- /.featured-item -->

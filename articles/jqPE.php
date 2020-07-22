@@ -358,7 +358,7 @@
 <h2><span>4)</span> The animatePlugin Menu</h2>
 
 <p>Now you have learnt the plugin structure. The following is the plugin
-   I created based on my previous tutorial. I have successfull convert the
+   I created based on my previous tutorial. I have successful convert the
    standard jQuery script to a plugin that accepts 4 configurations:</p>
 <ul class="fancybulletBig">
 	<li><span class="bold">animatePadding : </span> Set the padding value for the animate effect</li>

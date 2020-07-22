@@ -1547,7 +1547,7 @@ function wpmu_welcome_notification( $blog_id, $user_id, $password, $title, $meta
 		$welcome_email = __(
 			'Howdy USERNAME,
 
-Your new SITE_NAME site has been successfully set up at:
+Your new SITE_NAME site has been successfuly set up at:
 BLOG_URL
 
 You can log in to the administrator account with the following information:

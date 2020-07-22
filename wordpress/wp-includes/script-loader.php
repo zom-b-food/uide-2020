@@ -1726,7 +1726,7 @@ function wp_default_scripts( &$scripts ) {
 					/* translators: Accessibility text */
 					'updatingMsg'              => __( 'Updating... please wait.' ), // No ellipsis.
 					/* translators: Accessibility text */
-					'updatedMsg'               => __( 'Update completed successfully.' ),
+					'updatedMsg'               => __( 'Update completed successfuly.' ),
 					/* translators: Accessibility text */
 					'updateCancel'             => __( 'Update canceled.' ),
 					'beforeunload'             => __( 'Updates may not complete if you navigate away from this page.' ),
@@ -1752,9 +1752,9 @@ function wp_default_scripts( &$scripts ) {
 					/* translators: %s: Theme name and version */
 					'themeInstallFailedLabel'  => _x( '%s installation failed', 'theme' ),
 					'installingMsg'            => __( 'Installing... please wait.' ),
-					'installedMsg'             => __( 'Installation completed successfully.' ),
+					'installedMsg'             => __( 'Installation completed successfuly.' ),
 					/* translators: %s: Activation URL */
-					'importerInstalledMsg'     => __( 'Importer installed successfully. <a href="%s">Run importer</a>' ),
+					'importerInstalledMsg'     => __( 'Importer installed successfuly. <a href="%s">Run importer</a>' ),
 					/* translators: %s: Theme name */
 					'aysDelete'                => __( 'Are you sure you want to delete %s?' ),
 					/* translators: %s: Plugin name */

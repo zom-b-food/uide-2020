@@ -180,7 +180,7 @@ if ( ! is_file( $real_file ) ) {
 
 <?php if ( isset( $_GET['a'] ) ) : ?>
 	<div id="message" class="updated notice is-dismissible">
-		<p><?php _e( 'File edited successfully.' ); ?></p>
+		<p><?php _e( 'File edited successfuly.' ); ?></p>
 	</div>
 <?php elseif ( is_wp_error( $edit_error ) ) : ?>
 	<div id="message" class="notice notice-error">

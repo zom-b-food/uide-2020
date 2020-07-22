@@ -1180,7 +1180,7 @@ function populate_network_meta( $network_id, array $meta = array() ) {
 	$welcome_email = __(
 		'Howdy USERNAME,
 
-Your new SITE_NAME site has been successfully set up at:
+Your new SITE_NAME site has been successfuly set up at:
 BLOG_URL
 
 You can log in to the administrator account with the following information:

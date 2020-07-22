@@ -103,6 +103,10 @@
             <?php include '../inc/ontheweb.php'; ?>
         </section>
         <hr />
+        <section id="hog" class="scrollspy animatedParent section-padding">
+            <?php include '../inc/hog.php'; ?>
+        </section>
+        <hr />
         <section id="contact" class="scrollspy animatedParent section-padding banner-4 parallax-bg bg-fixed overlay"
             data-stellar-background-ratio="0.5">
             <?php include '../inc/reachout.php'; ?>
@@ -196,6 +200,27 @@ fclose($data);
                 </span>
             </p>
         </div>
+        <div class="container" id="disqus_thread"></div>
+        <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://http-ui-design-engineering-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+                Disqus.</a></noscript>
 
     </footer>
 
@@ -211,13 +236,26 @@ fclose($data);
     </div>
     <!-- End Preloader -->
     <div class="links-sites">
-        <h1>Adam L Marsh - http://www.adam-marsh.com</h1>
-        <h1>Adam L Marsh - http://www.ui-design-engineering.com</h1>
-        <h1>GW Latimer - Author, Walking Through Brambles</h1>
-        <h1>G. Webster Latimer - Author, Walking Through Brambles</h1>
-        <h1>Adam L Marsh - http://www.milkandbourbon.com</h1>
-        <h1>Adam L Marsh - http://www.myuikit.com</h1>
-        <h1>G.W. Latimer - http://www.thefogandwave.com</h1>
+        <h1>Webster Latimer - Author, Walking Through Brambles</h1>
+        <h1>Webster Latimer - gwlatimer.com</h1>
+        <h1>Webster Latimer - thefogandwave.com</h1>
+        <h1>Adam Marsh - ui-design-engineering.com</h1>
+        <h1>Adam Marsh - milkandbourbon.com</h1>
+        <h1>Adam Marsh - uiuxsandbox.com</h1>
+        <h1>Adam Marsh - adam-marsh.com</h1>
+        <a style="color:transparent;" href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through
+            Brambles</a>
+        <a style="color:transparent;" href="http://www.gwlatimer.com">G. Webster Latimer - Author, Walking Through
+            Brambles</a>
+        <a style="color:transparent;" href="http://www.milkandbourbon.com">Adam Marsh - Author, Walking Through
+            Brambles</a>
+        <a style="color:transparent;" href="http://www.milkandbourbon.com/index.php">Adam Marsh - Author, Walking
+            Through
+            Brambles</a>
+        <a style="color:transparent;" href="http://www.milkandbourbon.com/pages/home.php">Adam Marsh - Author, Walking
+            Through Brambles</a>
+        <a style="color:transparent;" href="http://www.adam-marsh.com">Adam L Marsh - Author, Walking Through
+            Brambles</a>
     </div>
     <!-- jQuery -->
     <?php include '../sitewide/globals-bottom.php'; ?>

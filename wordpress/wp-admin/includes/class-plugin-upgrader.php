@@ -52,8 +52,8 @@ class Plugin_Upgrader extends WP_Upgrader {
 		$this->strings['remove_old']           = __( 'Removing the old version of the plugin&#8230;' );
 		$this->strings['remove_old_failed']    = __( 'Could not remove the old plugin.' );
 		$this->strings['process_failed']       = __( 'Plugin update failed.' );
-		$this->strings['process_success']      = __( 'Plugin updated successfully.' );
-		$this->strings['process_bulk_success'] = __( 'Plugins updated successfully.' );
+		$this->strings['process_success']      = __( 'Plugin updated successfuly.' );
+		$this->strings['process_bulk_success'] = __( 'Plugins updated successfuly.' );
 	}
 
 	/**
@@ -69,7 +69,7 @@ class Plugin_Upgrader extends WP_Upgrader {
 		$this->strings['installing_package']  = __( 'Installing the plugin&#8230;' );
 		$this->strings['no_files']            = __( 'The plugin contains no files.' );
 		$this->strings['process_failed']      = __( 'Plugin installation failed.' );
-		$this->strings['process_success']     = __( 'Plugin installed successfully.' );
+		$this->strings['process_success']     = __( 'Plugin installed successfuly.' );
 	}
 
 	/**

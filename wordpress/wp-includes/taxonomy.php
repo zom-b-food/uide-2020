@@ -1320,7 +1320,7 @@ function has_term_meta( $term_id ) {
  * @param string $meta_key The meta key to register.
  * @param array  $args     Data used to describe the meta key when registered. See
  *                         {@see register_meta()} for a list of supported arguments.
- * @return bool True if the meta key was successfully registered, false if not.
+ * @return bool True if the meta key was successfuly registered, false if not.
  */
 function register_term_meta( $taxonomy, $meta_key, array $args ) {
 	$args['object_subtype'] = $taxonomy;
@@ -3753,7 +3753,7 @@ function _update_generic_term_count( $terms, $taxonomy ) {
  *                                     batch is processed. Only set this to `false` if you know what you are doing.
  *                                     Default: true.
  * @return int|WP_Error When the current term does not need to be split (or cannot be split on the current
- *                      database schema), `$term_id` is returned. When the term is successfully split, the
+ *                      database schema), `$term_id` is returned. When the term is successfuly split, the
  *                      new term_id is returned. A WP_Error is returned for miscellaneous errors.
  */
 function _split_shared_term( $term_id, $term_taxonomy_id, $record = true ) {

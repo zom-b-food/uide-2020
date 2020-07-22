@@ -45,6 +45,24 @@ body{
     color: $sand;
 }
 
+.border-box img {
+    border: 2px solid #F57B5B;
+   
+}
+
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    white-space: nowrap;
+
+    &>[class^="col-"],
+    &>[class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 header#header {
     background: transparent;
 }

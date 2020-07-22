@@ -1127,7 +1127,7 @@ function sanitize_meta( $meta_key, $meta_value, $object_type, $object_subtype = 
  * }
  * @param string|array $deprecated Deprecated. Use `$args` instead.
  *
- * @return bool True if the meta key was successfully registered in the global array, false if not.
+ * @return bool True if the meta key was successfuly registered in the global array, false if not.
  *                       Registering a meta key with distinct sanitize and auth callbacks will fire those
  *                       callbacks, but will not add to the global registry.
  */

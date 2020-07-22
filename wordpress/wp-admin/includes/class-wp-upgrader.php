@@ -70,7 +70,7 @@ class WP_Upgrader {
 	 * The result of the installation.
 	 *
 	 * This is set by WP_Upgrader::install_package(), only when the package is installed
-	 * successfully. It will then be an array, unless a WP_Error is returned by the
+	 * successfuly. It will then be an array, unless a WP_Error is returned by the
 	 * {@see 'upgrader_post_install'} filter. In that case, the WP_Error will be assigned to
 	 * it.
 	 *
@@ -919,7 +919,7 @@ class WP_Upgrader {
 	 * @see WP_Upgrader::create_lock()
 	 *
 	 * @param string $lock_name The name of this unique lock.
-	 * @return bool True if the lock was successfully released. False on failure.
+	 * @return bool True if the lock was successfuly released. False on failure.
 	 */
 	public static function release_lock( $lock_name ) {
 		return delete_option( $lock_name . '.lock' );

@@ -939,7 +939,7 @@ class Akismet_Admin {
 		$akismet_user = self::get_akismet_user( $api_key );
 		
 		if ( ! $akismet_user ) {
-			// This could happen if the user's key became invalid after it was previously valid and successfully set up.
+			// This could happen if the user's key became invalid after it was previously valid and successfuly set up.
 			self::$notices['status'] = 'existing-key-invalid';
 			self::display_start_page();
 			return;

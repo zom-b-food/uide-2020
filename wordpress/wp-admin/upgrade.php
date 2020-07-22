@@ -130,7 +130,7 @@ else :
 			$backto = wp_validate_redirect( $backto, __get_option( 'home' ) . '/' );
 			?>
 	<h1><?php _e( 'Update Complete' ); ?></h1>
-	<p><?php _e( 'Your WordPress database has been successfully updated!' ); ?></p>
+	<p><?php _e( 'Your WordPress database has been successfuly updated!' ); ?></p>
 	<p class="step"><a class="button button-large" href="<?php echo $backto; ?>"><?php _e( 'Continue' ); ?></a></p>
 
 <!--

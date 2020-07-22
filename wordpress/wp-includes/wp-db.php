@@ -586,7 +586,7 @@ class wpdb {
 	private $use_mysqli = false;
 
 	/**
-	 * Whether we've managed to successfully connect at some point
+	 * Whether we've managed to successfuly connect at some point
 	 *
 	 * @since 3.9.0
 	 * @var bool
@@ -3393,7 +3393,7 @@ class wpdb {
 	 *
 	 * @since 4.5.0
 	 *
-	 * @return bool True if the connection was successfully closed, false if it wasn't,
+	 * @return bool True if the connection was successfuly closed, false if it wasn't,
 	 *              or the connection doesn't exist.
 	 */
 	public function close() {

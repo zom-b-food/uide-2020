@@ -630,7 +630,7 @@ class WP_Customize_Setting {
 	 * @since 4.4.0
 	 *
 	 * @param mixed $value Value to set as root of multidimensional setting.
-	 * @return bool Whether the multidimensional root was updated successfully.
+	 * @return bool Whether the multidimensional root was updated successfuly.
 	 */
 	protected function set_root_value( $value ) {
 		$id_base = $this->id_data['base'];

@@ -1168,7 +1168,7 @@ class WP_REST_Posts_Controller extends WP_REST_Controller {
 	 *
 	 * @param int $featured_media Featured Media ID.
 	 * @param int $post_id        Post ID.
-	 * @return bool|WP_Error Whether the post thumbnail was successfully deleted, otherwise WP_Error.
+	 * @return bool|WP_Error Whether the post thumbnail was successfuly deleted, otherwise WP_Error.
 	 */
 	protected function handle_featured_media( $featured_media, $post_id ) {
 

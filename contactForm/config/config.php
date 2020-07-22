@@ -10,7 +10,7 @@ return [
     ],
     'messages' => [
         'error'   => 'There was an error sending your message, please try again later.',
-        'success' => 'Your message has been sent successfully.'
+        'success' => 'Your message has been sent successfuly.'
     ],
     'fields' => [
         'name'     => 'Name',

@@ -382,7 +382,7 @@ class SMTP
      * @param string $realm The auth realm for NTLM
      * @param string $workstation The auth workstation for NTLM
      * @param null|OAuth $OAuth An optional OAuth instance (@see PHPMailerOAuth)
-     * @return bool True if successfully authenticated.* @access public
+     * @return bool True if successfuly authenticated.* @access public
      */
     public function authenticate(
         $username,

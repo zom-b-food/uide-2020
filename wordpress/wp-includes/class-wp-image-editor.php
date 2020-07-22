@@ -216,7 +216,7 @@ abstract class WP_Image_Editor {
 	 * @since 3.5.0
 	 *
 	 * @param int $quality Compression Quality. Range: [1,100]
-	 * @return true|WP_Error True if set successfully; WP_Error on failure.
+	 * @return true|WP_Error True if set successfuly; WP_Error on failure.
 	 */
 	public function set_quality( $quality = null ) {
 		if ( null === $quality ) {

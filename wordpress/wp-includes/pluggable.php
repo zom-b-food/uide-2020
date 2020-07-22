@@ -146,7 +146,7 @@ if ( ! function_exists( 'wp_mail' ) ) :
 	 * Send mail, similar to PHP's mail
 	 *
 	 * A true return value does not automatically mean that the user received the
-	 * email successfully. It just only means that the method used was able to
+	 * email successfuly. It just only means that the method used was able to
 	 * process the request without any errors.
 	 *
 	 * Using the two 'wp_mail_from' and 'wp_mail_from_name' hooks allow from
@@ -170,7 +170,7 @@ if ( ! function_exists( 'wp_mail' ) ) :
 	 * @param string       $message     Message contents
 	 * @param string|array $headers     Optional. Additional headers.
 	 * @param string|array $attachments Optional. Files to attach.
-	 * @return bool Whether the email contents were sent successfully.
+	 * @return bool Whether the email contents were sent successfuly.
 	 */
 	function wp_mail( $to, $subject, $message, $headers = '', $attachments = array() ) {
 		// Compact the input, apply the filters, and extract them back out

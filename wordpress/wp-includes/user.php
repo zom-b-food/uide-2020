@@ -100,7 +100,7 @@ function wp_signon( $credentials = array(), $secure_cookie = '' ) {
 
 	wp_set_auth_cookie( $user->ID, $credentials['remember'], $secure_cookie );
 	/**
-	 * Fires after the user has successfully logged in.
+	 * Fires after the user has successfuly logged in.
 	 *
 	 * @since 1.5.0
 	 *

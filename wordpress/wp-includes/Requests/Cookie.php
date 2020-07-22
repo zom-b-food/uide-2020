@@ -223,7 +223,7 @@ class Requests_Cookie {
 	/**
 	 * Normalize cookie and attributes
 	 *
-	 * @return boolean Whether the cookie was successfully normalized
+	 * @return boolean Whether the cookie was successfuly normalized
 	 */
 	public function normalize() {
 		foreach ($this->attributes as $key => $value) {

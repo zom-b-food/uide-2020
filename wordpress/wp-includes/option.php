@@ -397,7 +397,7 @@ function update_option( $option, $value, $autoload = null ) {
 	}
 
 	/**
-	 * Fires after the value of a specific option has been successfully updated.
+	 * Fires after the value of a specific option has been successfuly updated.
 	 *
 	 * The dynamic portion of the hook name, `$option`, refers to the option name.
 	 *
@@ -411,7 +411,7 @@ function update_option( $option, $value, $autoload = null ) {
 	do_action( "update_option_{$option}", $old_value, $value, $option );
 
 	/**
-	 * Fires after the value of an option has been successfully updated.
+	 * Fires after the value of an option has been successfuly updated.
 	 *
 	 * @since 2.9.0
 	 *
@@ -543,7 +543,7 @@ function add_option( $option, $value = '', $deprecated = '', $autoload = 'yes' )
  * @global wpdb $wpdb WordPress database abstraction object.
  *
  * @param string $option Name of option to remove. Expected to not be SQL-escaped.
- * @return bool True, if option is successfully deleted. False on failure.
+ * @return bool True, if option is successfuly deleted. False on failure.
  */
 function delete_option( $option ) {
 	global $wpdb;
@@ -975,7 +975,7 @@ function get_user_setting( $name, $default = false ) {
  *
  * @param string $name  The name of the setting.
  * @param string $value The value for the setting.
- * @return bool|null True if set successfully, false if not. Null if the current user can't be established.
+ * @return bool|null True if set successfuly, false if not. Null if the current user can't be established.
  */
 function set_user_setting( $name, $value ) {
 	if ( headers_sent() ) {
@@ -998,7 +998,7 @@ function set_user_setting( $name, $value ) {
  * @since 2.7.0
  *
  * @param string $names The name or array of names of the setting to be deleted.
- * @return bool|null True if deleted successfully, false if not. Null if the current user can't be established.
+ * @return bool|null True if deleted successfuly, false if not. Null if the current user can't be established.
  */
 function delete_user_setting( $names ) {
 	if ( headers_sent() ) {
@@ -1409,7 +1409,7 @@ function add_network_option( $network_id, $option, $value ) {
 	if ( $result ) {
 
 		/**
-		 * Fires after a specific network option has been successfully added.
+		 * Fires after a specific network option has been successfuly added.
 		 *
 		 * The dynamic portion of the hook name, `$option`, refers to the option name.
 		 *
@@ -1424,7 +1424,7 @@ function add_network_option( $network_id, $option, $value ) {
 		do_action( "add_site_option_{$option}", $option, $value, $network_id );
 
 		/**
-		 * Fires after a network option has been successfully added.
+		 * Fires after a network option has been successfuly added.
 		 *
 		 * @since 3.0.0
 		 * @since 4.7.0 The `$network_id` parameter was added.
@@ -1631,7 +1631,7 @@ function update_network_option( $network_id, $option, $value ) {
 	if ( $result ) {
 
 		/**
-		 * Fires after the value of a specific network option has been successfully updated.
+		 * Fires after the value of a specific network option has been successfuly updated.
 		 *
 		 * The dynamic portion of the hook name, `$option`, refers to the option name.
 		 *
@@ -1647,7 +1647,7 @@ function update_network_option( $network_id, $option, $value ) {
 		do_action( "update_site_option_{$option}", $option, $value, $old_value, $network_id );
 
 		/**
-		 * Fires after the value of a network option has been successfully updated.
+		 * Fires after the value of a network option has been successfuly updated.
 		 *
 		 * @since 3.0.0
 		 * @since 4.7.0 The `$network_id` parameter was added.

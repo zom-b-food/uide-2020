@@ -79,7 +79,7 @@ class WP_Image_Editor_GD extends WP_Image_Editor {
 	 *
 	 * @since 3.5.0
 	 *
-	 * @return bool|WP_Error True if loaded successfully; WP_Error on failure.
+	 * @return bool|WP_Error True if loaded successfuly; WP_Error on failure.
 	 */
 	public function load() {
 		if ( $this->image ) {

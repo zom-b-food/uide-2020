@@ -4445,7 +4445,7 @@ function wp_ajax_edit_theme_plugin_file() {
 	} else {
 		wp_send_json_success(
 			array(
-				'message' => __( 'File edited successfully.' ),
+				'message' => __( 'File edited successfuly.' ),
 			)
 		);
 	}

@@ -986,7 +986,7 @@ class ParagonIE_Sodium_Compat
 
     /**
      * Opens a message encrypted with crypto_box_seal(). Requires
-     * the recipient's keypair (sk || pk) to decrypt successfully.
+     * the recipient's keypair (sk || pk) to decrypt successfuly.
      *
      * This validates ciphertext integrity.
      *

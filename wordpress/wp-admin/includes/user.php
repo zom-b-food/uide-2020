@@ -664,7 +664,7 @@ function _wp_personal_data_handle_actions() {
 			add_settings_error(
 				'privacy_action_email_retry',
 				'privacy_action_email_retry',
-				__( 'Confirmation request sent again successfully.' ),
+				__( 'Confirmation request sent again successfuly.' ),
 				'updated'
 			);
 		}
@@ -742,7 +742,7 @@ function _wp_personal_data_handle_actions() {
 				add_settings_error(
 					'username_or_email_for_privacy_request',
 					'username_or_email_for_privacy_request',
-					__( 'Confirmation request initiated successfully.' ),
+					__( 'Confirmation request initiated successfuly.' ),
 					'updated'
 				);
 				break;

@@ -29,7 +29,7 @@
  * @param int    $timestamp  Unix timestamp (UTC) for when to next run the event.
  * @param string $hook       Action hook to execute when the event is run.
  * @param array  $args       Optional. Array containing each separate argument to pass to the hook's callback function.
- * @return bool True if event successfully scheduled. False for failure.
+ * @return bool True if event successfuly scheduled. False for failure.
  */
 function wp_schedule_single_event( $timestamp, $hook, $args = array() ) {
 	// Make sure timestamp is a positive integer
@@ -183,7 +183,7 @@ function wp_schedule_single_event( $timestamp, $hook, $args = array() ) {
  * @param string $recurrence How often the event should subsequently recur. See wp_get_schedules() for accepted values.
  * @param string $hook       Action hook to execute when the event is run.
  * @param array  $args       Optional. Array containing each separate argument to pass to the hook's callback function.
- * @return bool True if event successfully scheduled. False for failure.
+ * @return bool True if event successfuly scheduled. False for failure.
  */
 function wp_schedule_event( $timestamp, $recurrence, $hook, $args = array() ) {
 	// Make sure timestamp is a positive integer
@@ -248,7 +248,7 @@ function wp_schedule_event( $timestamp, $recurrence, $hook, $args = array() ) {
  * @param string $recurrence How often the event should subsequently recur. See wp_get_schedules() for accepted values.
  * @param string $hook       Action hook to execute when the event is run.
  * @param array  $args       Optional. Array containing each separate argument to pass to the hook's callback function.
- * @return bool True if event successfully rescheduled. False for failure.
+ * @return bool True if event successfuly rescheduled. False for failure.
  */
 function wp_reschedule_event( $timestamp, $recurrence, $hook, $args = array() ) {
 	// Make sure timestamp is a positive integer
@@ -286,7 +286,7 @@ function wp_reschedule_event( $timestamp, $recurrence, $hook, $args = array() ) 
 	 * Returning a non-null value will short-circuit the normal rescheduling
 	 * process, causing the function to return the filtered value instead.
 	 *
-	 * For plugins replacing wp-cron, return true if the event was successfully
+	 * For plugins replacing wp-cron, return true if the event was successfuly
 	 * rescheduled, false if not.
 	 *
 	 * @since 5.1.0
@@ -338,7 +338,7 @@ function wp_reschedule_event( $timestamp, $recurrence, $hook, $args = array() ) 
  * @param array  $args      Optional. Array containing each separate argument to pass to the hook's callback function.
  *                          Although not passed to a callback, these arguments are used to uniquely identify the
  *                          event, so they should be the same as those used when originally scheduling the event.
- * @return bool True if event successfully unscheduled. False for failure.
+ * @return bool True if event successfuly unscheduled. False for failure.
  */
 function wp_unschedule_event( $timestamp, $hook, $args = array() ) {
 	// Make sure timestamp is a positive integer
@@ -352,7 +352,7 @@ function wp_unschedule_event( $timestamp, $hook, $args = array() ) {
 	 * Returning a non-null value will short-circuit the normal unscheduling
 	 * process, causing the function to return the filtered value instead.
 	 *
-	 * For plugins replacing wp-cron, return true if the event was successfully
+	 * For plugins replacing wp-cron, return true if the event was successfuly
 	 * unscheduled, false if not.
 	 *
 	 * @since 5.1.0
@@ -411,7 +411,7 @@ function wp_clear_scheduled_hook( $hook, $args = array() ) {
 	 * Returning a non-null value will short-circuit the normal unscheduling
 	 * process, causing the function to return the filtered value instead.
 	 *
-	 * For plugins replacing wp-cron, return the number of events successfully
+	 * For plugins replacing wp-cron, return the number of events successfuly
 	 * unscheduled (zero if no events were registered with the hook) or false
 	 * if unscheduling one or more events fails.
 	 *
@@ -471,7 +471,7 @@ function wp_unschedule_hook( $hook ) {
 	 * Returning a non-null value will short-circuit the normal unscheduling
 	 * process, causing the function to return the filtered value instead.
 	 *
-	 * For plugins replacing wp-cron, return the number of events successfully
+	 * For plugins replacing wp-cron, return the number of events successfuly
 	 * unscheduled (zero if no events were registered with the hook) or false
 	 * if unscheduling one or more events fails.
 	 *

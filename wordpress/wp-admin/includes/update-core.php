@@ -1234,13 +1234,13 @@ function update_core( $from, $to ) {
 	}
 
 	/**
-	 * Fires after WordPress core has been successfully updated.
+	 * Fires after WordPress core has been successfuly updated.
 	 *
 	 * @since 3.3.0
 	 *
 	 * @param string $wp_version The current WordPress version.
 	 */
-	do_action( '_core_updated_successfully', $wp_version );
+	do_action( '_core_updated_successfuly', $wp_version );
 
 	// Clear the option that blocks auto updates after failures, now that we've been successful.
 	if ( function_exists( 'delete_site_option' ) ) {
@@ -1350,7 +1350,7 @@ function _redirect_to_about_wordpress( $new_version ) {
 	load_default_textdomain();
 
 	// See do_core_upgrade()
-	show_message( __( 'WordPress updated successfully' ) );
+	show_message( __( 'WordPress updated successfuly' ) );
 
 	// self_admin_url() won't exist when upgrading from <= 3.0, so relative URLs are intentional.
 	show_message( '<span class="hide-if-no-js">' . sprintf( __( 'Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href="%2$s">here</a>.' ), $new_version, 'about.php?updated' ) . '</span>' );

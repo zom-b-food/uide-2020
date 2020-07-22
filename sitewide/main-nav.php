@@ -25,6 +25,8 @@
                 </li>
                 <li><a href="#onweb">On the Web</a>
                 </li>
+                <li><a href="#hog">House of Gao</a>
+                </li>
                 <li><a href="#contact">Reach Out</a>
                 </li>
             </ul>

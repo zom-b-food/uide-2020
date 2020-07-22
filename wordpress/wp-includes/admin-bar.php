@@ -18,7 +18,7 @@
  *
  * @global WP_Admin_Bar $wp_admin_bar
  *
- * @return bool Whether the admin bar was successfully initialized.
+ * @return bool Whether the admin bar was successfuly initialized.
  */
 function _wp_admin_bar_init() {
 	global $wp_admin_bar;

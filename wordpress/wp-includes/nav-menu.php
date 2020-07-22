@@ -281,7 +281,7 @@ function wp_delete_nav_menu( $menu ) {
 	if ( $result && ! is_wp_error( $result ) ) {
 
 		/**
-		 * Fires after a navigation menu has been successfully deleted.
+		 * Fires after a navigation menu has been successfuly deleted.
 		 *
 		 * @since 3.0.0
 		 *
@@ -357,7 +357,7 @@ function wp_update_nav_menu_object( $menu_id = 0, $menu_data = array() ) {
 		}
 
 		/**
-		 * Fires after a navigation menu is successfully created.
+		 * Fires after a navigation menu is successfuly created.
 		 *
 		 * @since 3.0.0
 		 *
@@ -384,7 +384,7 @@ function wp_update_nav_menu_object( $menu_id = 0, $menu_data = array() ) {
 	$menu_id = (int) $update_response['term_id'];
 
 	/**
-	 * Fires after a navigation menu has been successfully updated.
+	 * Fires after a navigation menu has been successfuly updated.
 	 *
 	 * @since 3.0.0
 	 *

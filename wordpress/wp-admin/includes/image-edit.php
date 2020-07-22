@@ -731,7 +731,7 @@ function wp_restore_image( $post_id ) {
 	if ( ! $restored ) {
 		$msg->error = __( 'Image metadata is inconsistent.' );
 	} else {
-		$msg->msg = __( 'Image restored successfully.' );
+		$msg->msg = __( 'Image restored successfuly.' );
 	}
 
 	return $msg;

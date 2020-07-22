@@ -3095,7 +3095,7 @@ final class WP_Customize_Manager {
 
 		wp_send_json_success(
 			array(
-				'message' => __( 'Changes trashed successfully.' ),
+				'message' => __( 'Changes trashed successfuly.' ),
 			)
 		);
 	}
