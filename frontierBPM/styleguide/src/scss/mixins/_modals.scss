@@ -1,0 +1,12 @@
+@mixin modal-colors($bg-color, $color) {
+    .modal-content{
+        background-color: $secondary-color;
+        color: $color;
+    }
+
+    .modal-header .close{
+        color: $color;
+    }
+
+
+}

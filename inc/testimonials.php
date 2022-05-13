@@ -126,14 +126,14 @@
                 </div>
                 <div class="bio text-center">
                     <p>
-                        <div class="cta-button">
-                            <a href="almwebdev.docx" class="btn btn-warning waves-effect waves-light"><i
-                                    class="fa fa-cloud-download mr-10"></i>Download CV</a>
-                        </div>
-                        <br />
-                        <i class="small material-icons">blur_on</i><br />
-                        <a class="page-scroll" href="#contact">Available for Freelance
-                            Work</a>
+                    <div class="cta-button">
+                        <a href="/sources/almuiux.pdf" class="btn btn-warning waves-effect waves-light"><i
+                                class="fa fa-cloud-download mr-10"></i>Download CV</a>
+                    </div>
+                    <br />
+                    <i class="small material-icons">blur_on</i><br />
+                    <a class="page-scroll" href="#contact">Available for Freelance
+                        Work</a>
                     </p>
                     <hr class="quotes">
                 </div>

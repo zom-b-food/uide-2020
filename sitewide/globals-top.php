@@ -21,6 +21,7 @@
 <link href="../dist/css/style.min.css" rel="stylesheet">
 <link href="../dist/css/components.min.css" rel="stylesheet">
 
-<script src="../dist/lib/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
 <script src="../dist/lib/bootstrap-4.3.min.js"></script>
 <script src="../dist/lib/materialize.min.js"></script>

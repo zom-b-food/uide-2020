@@ -184,30 +184,6 @@ Version: 1.5
 
 
 
-        /* === Instagram Photo Feed === */
-
-        /**
-         * ### HOW TO CREATE A VALID INSTAGRAM ID TO USE: ###
-         * You need your user name and your access token for use Instagram API. Login to Instagram https://www.instagram.com 
-         * You can get your user ID from here: https://smashballoon.com/instagram-feed/find-instagram-user-id/
-         * Get your access token from http://jelled.com/instagram/access-token and folow the instruction
-         * You can also generate access token from here: http://instagram.pixelunion.net/.
-         * Use your userId and accessToken as below instead!
-
-         */
-
-
-        if ($('#myinstafeed').length > 0) {
-            var feed = new Instafeed({
-                target: 'myinstafeed', //The ID of a DOM element you want to add the images to
-                limit: 6,
-                get: 'user',
-                userId: 2963143209,
-                accessToken: '2963143209.1677ed0.6cf28ac3f9c041759202e3e1af8baa46'
-            });
-            feed.run();
-        }
-
 
         /* === CountDown === */
         if ($('.countdown').length > 0) {
@@ -467,20 +443,6 @@ Version: 1.5
         });
 
 
-
-        /* ======= Stellar for background scrolling ======= */
-        if ($('.parallax-bg').length > 0) {
-            $('.parallax-bg').imagesLoaded( function() {
-
-            	$(window).stellar({
-                    horizontalScrolling: false,
-                    verticalOffset: 0,
-                    horizontalOffset: 0,
-                    responsive: true,
-                    hideDistantElements: true
-                });
-            });
-        }
 
 
         /* ======= shuffle js ======= */

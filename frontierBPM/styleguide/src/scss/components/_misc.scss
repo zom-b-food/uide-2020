@@ -1,0 +1,267 @@
+
+/* Animations */
+.nav-pills .nav-link,
+.nav-item .nav-link,
+.navbar,
+.nav-tabs .nav-link{
+    @include transition($general-transition-time, $transition-ease);
+}
+
+//transition for dropdown caret
+.dropdown-toggle:after,
+.bootstrap-switch-label:before{
+    @include transition($fast-transition-time, $transition-ease);
+}
+
+.dropdown-toggle[aria-expanded="true"]:after{
+    @include rotate-180();
+}
+
+.button-bar{
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 1px;
+    border-radius: $btn-curved-radius;
+    background: $white-bg;
+
+    & + .button-bar{
+        margin-top: 7px;
+    }
+
+    &:nth-child(2){
+        width: 17px;
+    }
+}
+
+.open{
+    @include transform-translate-y(0);
+    @include opacity(1);
+    visibility: visible;
+}
+
+.separator{
+    height: 2px;
+    width: 44px;
+    background-color: $default-color;
+    margin: 20px auto;
+
+    &.separator-primary{
+        background-color: $primary-color;
+    }
+}
+.nav-link.square {
+  border-radius:$btn-curved-radius !important;
+  padding: 0.4rem .8rem;
+  color: $black !important;
+  background-color: $moonblue !important;
+  margin-top:0;
+  border-bottom: 4px solid transparent;
+}
+.nav-link.active.square {
+  border-radius:$btn-curved-radius !important;
+  padding: 0.4rem .8rem;
+  color: $black !important;
+  background-color: $cream !important;
+  margin-top:0;
+  border-bottom: 4px solid $primary-color;
+}
+.green-bg {
+  background-color: $green-bg;
+}
+.yellow-bg {
+  background-color: $yellow-bg;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+// .indent {padding-left:10px;}
+.ml15 {margin-left:15px !important;}
+.ml20 {margin-left:20px !important;}
+.mt7 {margin-top:7px !important;}
+.mt10 {margin-top:10px !important;}
+.mt20 {margin-top:20px !important;}
+.mt35 {margin-top:35px !important;}
+.mt50 {margin-top:50px !important;}
+.mt70 {margin-top:70px !important;}
+.mb50 {margin-bottom:50px !important;}
+.mb100 {margin-bottom:100 !important;}
+.mb150 {margin-bottom:150 !important;}
+.pt20 {padding-top:20px !important;}
+.pt100 {padding-top:100px !important;}
+.mt100 {margin-top:100px !important;}
+.pt90  {padding-top:90px !important;}
+.w100 {width:100% !important;}
+.right-align {margin-left:80% !important;}
+.nowrap {
+  white-space: nowrap;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.space {
+  height: 130px;
+  display: block;
+}
+
+.space-110 {
+  height: 110px;
+  display: block;
+}
+
+.space-50 {
+  height: 50px;
+  display: block;
+}
+
+.space-70 {
+  height: 70px;
+  display: block;
+}
+
+.space-100 {
+  height: 100px;
+  display: block;
+  width: 100%;
+}
+
+.txt-white * {
+  color: #FFFFFF;
+}
+
+.txt-gray * {
+  color: #ddd;
+}
+
+.yespad {
+  padding: 4px 6px !important;
+}
+
+.nopad {
+  padding: 0 !important;
+}
+.nomargin {
+  margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.input-group-addon {
+  font-size:inherit !important;
+}
+
+.bg-default{
+  background-color: $default-color !important;
+}
+
+.bg-disabled{
+  background-color: $gray-300 !important;
+}
+
+.bg-primary{
+  background-color: $primary-color !important;
+  color:$white;
+}
+
+.bg-primary-fade {
+  background-color: $primary-color-fade !important;
+  border-bottom:1px solid $secondary-color;
+}
+
+.bg-secondary{
+  background-color: $secondary-color !important;
+}
+
+.bg-tertiary{
+  background-color: $tertiary-color !important;
+}
+
+.bg-accent{
+  background-color: $accent-color !important;
+}
+
+.bg-info{
+  background-color: $info-color !important;
+}
+
+.bg-success{
+  background-color: $success-color !important;
+}
+
+.bg-smoke {
+  background-color: $smoke !important;
+}
+
+.bg-danger{
+  background-color: $danger-color !important;
+}
+
+.bg-warning{
+  background-color: $warning-color !important;
+}
+
+.bg-white{
+  background-color: $white !important;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+.secondary-color {
+  color: $secondary-color;
+}
+.tertiary-color {
+  color: $tertiary-color;
+}
+.accent-color {
+  color: $accent-color;
+}
+.red, .required {
+  color:red;
+}
+
+.ml-c {
+  margin:0 auto;
+}
+
+span.note {
+  font-size:90%;
+  text-transform: none;
+}
+
+a.top, button.top {
+  margin-top:-7px !important;
+  border-radius: 0.1875rem !important;
+  padding: 6px !important;
+}
+
+a.home {
+  @extend .top;
+  margin-top:-5px;
+}
+
+nav.top {
+  margin-top:-5px;
+
+}
+.float-left {
+  float:left !important;
+}
+.float-right {
+  float:right !important;
+}
+.centered {
+  text-align: center;
+}
+.middle {
+	margin: 0 auto;
+}
+
+.txt-white {
+  color:$white;
+}
+
+.txt-black {
+  color:$black;
+}

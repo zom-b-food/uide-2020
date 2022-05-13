@@ -373,14 +373,13 @@ header.sticky .menuzord-menu>li>a,
     clear: both;
     width: 100%;
     border: 0;
-    font-size: 14px;
     position: relative;
 }
 
 .menuzord-menu ul.dropdown li a,
 .menuzord-menu>li>.megamenu .megamenu-row li a {
     width: 100%;
-    padding: 10px 20px;
+    padding: 4px 14px;
     font-size: 13px;
     color: $sand;
     background-color: $bourbon;

@@ -5,19 +5,26 @@
             <ul class="menuzord-menu" id="menu-list">
                 <li><a href="#top">Welcome</a>
                 </li>
-                <li><a href="#intro">Intro</a>
+                <li><a href="#uxui">UX vs UI</a>
                 </li>
                 <li><a href="#testimonials">Testimonials</a>
                 </li>
                 <li><a href="#dd">Designer/Developer</a>
                     <ul class="dropdown">
                         <li class="nav-item">
-                            <a href="#skills">Main Skillset</a>
+                            <a href="#uxui">UX vs UI</a>
                         </li>
                         <li><a href="#history">Work Experience</a>
                         </li>
-                        <li><a href="#accordions">Dev Widgets</a>
+                        <li><a href="#accordions">Resources</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="/frontierBPM/index.php" data-featherlight="iframe"
+                                data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1600"
+                                data-featherlight-iframe-height="1000">Styleguide & Prototype</a>
+
+                        </li>
+
                     </ul>
                 </li>
 

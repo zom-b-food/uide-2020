@@ -9,7 +9,7 @@
 	                designs -- a UI/UX
 	                Creator, Design Technologist, Page Builder, DOM Scripter, SASS Magician,
 	                AJAX/REST
-	                Contortionist, Responsive Engineer, Framework Tinkerer, Dog Lover, and a UI/UX
+	                Contortionist, Responsive Engineer, Framework Tinkerer, Angular/React Abuser, Dog Lover, and a UI/UX
 	                Obsessive. I create
 	                responsive websites and apps for individuals and companies of every ilk and
 	                location. And most importantly, I know
@@ -51,6 +51,7 @@
 	                    page
 	                    responsive
 	                    for a legion of modern devices.</p>
+
 	                <h2 class="sub-title">Sample URLs</h2>
 	                <p>
 	                    Note: Some of the sample screenshots I present here are of web apps I have
@@ -81,28 +82,31 @@
 	                            shoecarnival.com</a>
 
 	                    </li>
-	                    <li data-icon="chevron_right" class="white-text;">a responsive ajax/json
-	                        viewer built
+	                    <li data-icon="chevron_right" class="white-text;">a React REST API I built
 	                        for
-	                        <a href="/sandbox/kaiser/home.jsp" data-featherlight="iframe"
-	                            data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1000"
-	                            data-featherlight-iframe-height="881">Kaiser
-	                            Permanente</a>
+	                        <a href="https://react-spacex-73529.web.app" data-featherlight="iframe"
+	                            data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1200"
+	                            data-featherlight-iframe-height="881">Exclamation
+	                            Labs</a>
 
 	                    </li>
 	                    <li data-icon="chevron_right">a responsive js/jquery CodePen built for
 	                        <a href="https://codepen.io/snowinpeking/full/GbWxNZ" class="brightbox"
 	                            target="_blank">Microsoft</a>
 	                    </li>
-	                    <li data-icon="chevron_right" class="white-text;">another responsive jsp
-	                        prototype I
-	                        built at
-	                        <a href="/sandbox/ramsell/partSMSummary.php" data-featherlight="iframe"
+	                    <li data-icon="chevron_right">dynamic angular/json app I built for an
+	                        <a href="/sandbox/angular-apps/angular-json/zoo.php" data-featherlight="iframe"
 	                            data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1000"
-	                            data-featherlight-iframe-height="881">
-	                            Ramsell Corp</a>
+	                            data-featherlight-iframe-height="881">an Angular 4
+	                            Bootcamp</a>
 
 	                    </li>
+	                    <li data-icon="chevron_right">an Angular workshop project <a href="https://ang9complete.web.app/"
+	                            data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"
+	                            data-featherlight-iframe-width="1100" data-featherlight-iframe-height="881">
+	                            on almost everything</a>
+	                    </li>
+
 	                    <li data-icon="chevron_right" class="white-text;">my side project (sass
 	                        frameworks)
 	                        <a class="brightbox" href="http://www.myuikit.com" target="_blank">
@@ -151,7 +155,9 @@
 	                </div>
 	            </div>
 	            <br class="clear">
-	            <p class="white-text">I have extensive design engineering experience
+	            <p class="white-text">
+	            <h2 class="sub-title">I work primarily in PHP and Angular 6+ with a focus on the UI/UX.</h2>
+	            <p>I have extensive design engineering experience
 	                producing
 	                scalable,
 	                flexible
@@ -167,7 +173,7 @@
 	                JSP, and RoR integration. I develop responsive HTML5 pages and
 	                components via
 	                Material Design,
-	                Bootstrap, and Foundation. Angular 6 Development.</p>
+	                Bootstrap, and Foundation. Angular and React Development.</p>
 	            <div style="margin:0 auto;text-align:center;"><img src="/dist/img/brands.jpg" class="img-responsive">
 	            </div>
 	        </div>

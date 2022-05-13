@@ -1,0 +1,62 @@
+.pagination{
+   
+    .page-item .page-link{
+       border:1px solid $accent-color;
+        transition: all .3s;
+        padding: 0px 11px;
+        margin: 0;
+        min-width: 30px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        color: $black;
+        cursor: pointer;
+        font-size: $font-size-base;
+        text-transform: uppercase;
+        background: transparent;
+
+        &:hover,
+        &:focus{
+            color: $primary-color;
+            background-color: $accent-color-opacity;
+            border-color: $accent-color;
+        }
+        > .arrow {
+             border:1px solid $primary-color-opacity;
+    border-radius: $border-radius-small;
+        }
+    }
+
+    .arrow-margin-left,
+    .arrow-margin-right{
+        position: absolute;
+    }
+
+    .arrow-margin-right{
+        right: 0;
+    }
+
+    .arrow-margin-left{
+        left: 0;
+    }
+
+    .page-item.active > .page-link{
+        color: $light-gray;
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+
+        &,
+        &:focus,
+        &:hover{
+            background-color: $accent-color-opacity;
+            border-color: $default-color;
+            color: $white;
+        }
+    }
+
+    .page-item.disabled > .page-link{
+        opacity: .5;
+        background-color: rgba(255,255,255, .2);
+        color: $white;
+    }
+
+}
