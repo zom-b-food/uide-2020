@@ -26,7 +26,59 @@
 
 <body id="top">
     <!--header start-->
-    <?php include '../sitewide/main-nav.php'; ?>
+    <header id="header" class="tt-nav nav-center-align transparent transparent-header">
+        <div class="container mainmenu">
+            <nav id="materialize-menu" class="menuzord">
+                <!--mega menu start-->
+                <ul class="menuzord-menu" id="menu-list">
+                    <li><a href="#top">Welcome</a>
+                    </li>
+                    <li><a href="#uxui">UX vs UI</a>
+                    </li>
+                    <li><a href="#testimonials">Testimonials</a>
+                    </li>
+                    <li><a href="#dd">Designer/Developer</a>
+                        <ul class="dropdown">
+                            <li class="nav-item">
+                                <a href="#uxui">UX vs UI</a>
+                            </li>
+                            <li><a href="#history">Work Experience</a>
+                            </li>
+                            <li><a href="#accordions">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://uiuxsandbox.com/styleguide/styleguide.php" target="_blank">Interactive
+                                    Styleguide</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="http://uiuxsandbox.com/prototype/prototype.php" target="_blank">HTML/SCSS/JS
+                                    Prototype</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="#projects">Get a Theme</a>
+                    </li>
+                    <li><a href="#onweb">On the Web</a>
+                    </li>
+                    <li><a href="#hog">House of Gao</a>
+                    </li>
+                    <li><a href="#contact">Reach Out</a>
+                    </li>
+                </ul>
+                <!--mega menu end-->
+            </nav>
+        </div>
+        <!--alternate menu appear start-->
+        <div class="menu-appear-alt">
+            <div class="container menu-alt">
+                <nav id="materialize-menu-alt" class="menuzord">
+                </nav>
+            </div>
+        </div>
+        <!--alternate menu appear end-->
+    </header>
     <!--header end-->
     <!--mega menu end-->
     <main class="mt-0 pt-0">
@@ -49,20 +101,22 @@
                                 <b>Bootstrap, Material
                                     <hr class="testimony" />
                                 </b>
-                                <b>Angular 6+
-                                    <hr class="testimony" />
-                                </b>
-                                <b>Java/JSP, PHP
+
+                                <b>HTML/SCSS/JS Prototypes
                                     <hr class="testimony" />
                                 </b>
 
-                                <b>Wordpress, OpenCart
+                                <b>Wireframes - Styleguides
+                                    <hr class="testimony" />
+                                </b>
+                                <b>Angular 6+, JSP, PHP
                                     <hr class="testimony" />
                                 </b>
                             </span>
                         </h2>
                         <span class="tt-sub-intro">2 Jobs / 1 Guy</span>
-                        <a href="#contact" class="btn btn-lg orange waves-effect waves-light">Hire Me</a>
+
+                        <a href="#contact" class="btn btn-lg orange waves-effect waves-light mt-25">Hire Me</a>
                     </div>
                 </div>
                 <!-- /.container -->
@@ -102,7 +156,7 @@
         </section>
         <hr />
         <section id="accordions" class="animatedParent section-padding">
-         <?php include '../inc/UIUX-accordions.php'; ?>
+            <?php include '../inc/UIUX-accordions.php'; ?>
         </section>
         <hr />
         <section id="projects"

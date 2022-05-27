@@ -3,10 +3,10 @@
         For Designers &amp; Developers</h1>
     <h3 class="sandy">[Widgets, PSDs, and other stuff.]</h3>
     </h1>
-    <h2> <a href="/frontierBPM/index.php" data-featherlight="iframe" data-featherlight-iframe-allowfullscreen="true"
-            data-featherlight-iframe-width="1600" data-featherlight-iframe-height="1000">*Interactive Styleguide &
-            HTML/SCSS/JS Prototype*</a>
-    </h2>
+    <h3><i class="small material-icons" style="color:#F37A5A; font-size:20px;">whatshot</i>&nbsp;<a
+            href="http://uiuxsandbox.com/styleguide/styleguide.php" target="_blank">Interactive Styleguide</a></h3>
+    <h3><i class="small material-icons" style="color:#F37A5A; font-size:20px;">whatshot</i>&nbsp;<a
+            href="http://uiuxsandbox.com/prototype/prototype.php" target="_blank">HTML/SCSS/JS Prototype</a></h3>
     <div class="row">
         <div class="col-md-6 black-text grad-bg">
             <h3 class="sandy">UI/UX Resources</h3>

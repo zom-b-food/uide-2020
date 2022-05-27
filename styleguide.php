@@ -27,9 +27,39 @@
     </script>
 
     <style type="text/css">
-    /***
-Bootstrap4 Card with Tabs by @mdeuerlein
-***/
+    header.proto {
+        margin-top: -85px;
+        height: 70px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+
+    }
+
+    #main-tabs {
+        margin-top: -20px;
+    }
+
+    ul.mt-20 {
+        margin-top: -14px;
+    }
+
+    .mt8 {
+        margin-top: 8px;
+    }
+
+    .fake-logo {
+        padding: 0 0 0 20px;
+    }
+
+    .mt135 {
+        margin-top: 135px;
+    }
 
     body {
         background-color: transparent;
@@ -92,10 +122,6 @@ Bootstrap4 Card with Tabs by @mdeuerlein
 </head>
 
 <body id="top">
-
-
-
-
     <div class="row">
         <div class="col-12">
             <div class="card mt-3 tab-card">
@@ -103,32 +129,31 @@ Bootstrap4 Card with Tabs by @mdeuerlein
                     <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link" id="one-tab" data-toggle="tab" href="#one" role="tab"
-                                aria-controls="One" aria-selected="true">Interactive Styleguide</a>
+                                aria-controls="One" aria-selected="true">styleguide.php</a>
                         </li>
+                        &nbsp;
                         <li class="nav-item">
                             <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab"
                                 aria-controls="Two" aria-selected="false">HMTL/SCSS/JS Prototype</a>
                         </li>
-
                     </ul>
                 </div>
 
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
-                        <embed type="text/html" src="../frontierBPM/styleguide/pages/index.php" width="100%"
-                            height="825px">
+                        <!-- <embed type="text/html" src="../styleguide/index.php" width="100%"
+                            height="825px"> -->
+                        <?php include 'styleguide/styleguide-test.php'; ?>
                     </div>
                     <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
-                        <embed type="text/html" src="../frontierBPM/styleguide/pages/dashboard1.php" width="100%"
-                            height="825px">
-
+                        <!-- <embed type="text/html" src="../styleguide/dashboard1.php" width="100%"
+                            height="825px"> -->
+                        <?php include 'styleguide/dashboard-test.php'; ?>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
