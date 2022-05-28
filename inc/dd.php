@@ -82,14 +82,7 @@
 	                            shoecarnival.com</a>
 
 	                    </li>
-	                    <li data-icon="chevron_right" class="white-text;">a React REST API I built
-	                        for
-	                        <a href="https://react-spacex-73529.web.app" data-featherlight="iframe"
-	                            data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1200"
-	                            data-featherlight-iframe-height="881">Exclamation
-	                            Labs</a>
 
-	                    </li>
 	                    <li data-icon="chevron_right">a responsive js/jquery CodePen built for
 	                        <a href="https://codepen.io/snowinpeking/full/GbWxNZ" class="brightbox"
 	                            target="_blank">Microsoft</a>
@@ -97,8 +90,7 @@
 	                    <li data-icon="chevron_right">dynamic angular/json app I built for an
 	                        <a href="/sandbox/angular-apps/angular-json/zoo.php" data-featherlight="iframe"
 	                            data-featherlight-iframe-allowfullscreen="true" data-featherlight-iframe-width="1000"
-	                            data-featherlight-iframe-height="881">an Angular 4
-	                            Bootcamp</a>
+	                            data-featherlight-iframe-height="881">an Angular.js Bootcamp</a>
 
 	                    </li>
 	                    <li data-icon="chevron_right">an Angular workshop project <a href="https://ang9complete.web.app/"

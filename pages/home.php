@@ -1,3 +1,4 @@
+<?php header('Access-Control-Allow-Origin: *'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,14 +36,13 @@
                     </li>
                     <li><a href="#uxui">UX vs UI</a>
                     </li>
-                    <li><a href="#testimonials">Testimonials</a>
-                    </li>
+
                     <li><a href="#dd">Designer/Developer</a>
                         <ul class="dropdown">
-                            <li class="nav-item">
-                                <a href="#uxui">UX vs UI</a>
-                            </li>
+
                             <li><a href="#history">Work Experience</a>
+                            </li>
+                            <li><a href="#skills">Main Skillset</a>
                             </li>
                             <li><a href="#accordions">Resources</a>
                             </li>
@@ -59,6 +59,8 @@
                     </li>
 
                     <li><a href="#projects">Get a Theme</a>
+                    </li>
+                    <li><a href="#testimonials">Testimonials</a>
                     </li>
                     <li><a href="#onweb">On the Web</a>
                     </li>
@@ -84,7 +86,7 @@
     <main class="mt-0 pt-0">
 
         <section id="top"
-            class="scrollspy banner-wrapper parallax-bg banner-me-bridge fullscreen-banner valign-wrapper overlay"
+            class="scrollspy banner-wrapper parallax-bg banner-12 fullscreen-banner valign-wrapper overlay"
             data-stellar-background-ratio="0.5">
             <div class="valign-cell">
                 <div class="container">
@@ -132,39 +134,44 @@
         <!-- Marker Marker Marker Marker Marker Marker Marker Marker Marker -->
 
         <section id="uxui"
-            class="scrollspy animatedParent section-padding banner-wrapper parallax-bg banner-12 fullscreen-banner valign-wrapper bg-fixed overlay dark-5"
+            class="scrollspy animatedParent section-padding banner-wrapper parallax-bg banner-me-bridge fullscreen-banner valign-wrapper bg-fixed overlay dark-5"
             data-stellar-background-ratio="0.5">
             <?php include '../inc/intro.php'; ?>
         </section>
         <hr />
-        <section id="testimonials" class="scrollspy section-padding animatedParent">
-            <?php include '../inc/testimonials.php'; ?>
+
+        <section id="dd" class="scrollspy animatedParent section-padding">
+            <?php include '../inc/dd.php'; ?>
         </section>
         <hr />
-        <section id="dd"
-            class="scrollspy animatedParent section-padding banner-plank parallax-bg bg-fixed overlay dark-5"
+
+        <section id="history"
+            class="scrollspy animatedParent section-padding banner-10 parallax-bg bg-fixed overlay dark-5"
             data-stellar-background-ratio="0.5">
-            <?php include '../inc/dd.php'; ?>
+            <?php include '../inc/history.php'; ?>
         </section>
         <hr />
         <section id="skills" class="scrollspy animatedParent section-padding">
             <?php include '../inc/skills.php'; ?>
         </section>
         <hr />
-        <section id="history" class="scrollspy animatedParent section-padding">
-            <?php include '../inc/history.php'; ?>
-        </section>
-        <hr />
+
+
         <section id="accordions" class="animatedParent section-padding">
             <?php include '../inc/UIUX-accordions.php'; ?>
         </section>
         <hr />
-        <section id="projects"
-            class="scrollspy animatedParent section-padding banner-10 parallax-bg bg-fixed overlay dark-5"
-            data-stellar-background-ratio="0.5">
+        <section id="projects" class="scrollspy section-padding animatedParent">
             <?php include '../inc/themes.php'; ?>
         </section>
         <hr />
+        <section id="testimonials"
+            class="scrollspy animatedParent section-padding banner-plank parallax-bg bg-fixed overlay dark-5"
+            data-stellar-background-ratio="0.5">
+            <?php include '../inc/testimonials.php'; ?>
+        </section>
+        <hr />
+
         <section id="onweb" class="scrollspy animatedParent section-padding">
             <?php include '../inc/ontheweb.php'; ?>
         </section>

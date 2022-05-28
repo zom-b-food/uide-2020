@@ -9,12 +9,13 @@
             tells the world who you really are.</p>
     </div>
     <div class="row">
+        <div class="col-md-1">&nbsp;</div>
+        <div class="col-md-7" id="Contact">
 
-        <div class="col-md-7">
-            <iframe id="contact" class="contact-info" width="100%" height="580" src="/contactForm/index.php"
+            <iframe id="contact" class="contact-info" width="100%" height="580" src="/phpmail/index.php"
                 overflow="hidden" scrolling="no" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-md-1">&nbsp;</div>
+
         <div class="col-md-4 contact-info ">
             <address>
                 <i class="material-icons melon-link">&#xE8B4;</i>
@@ -57,27 +58,19 @@
         <h1>Adam L Marsh - http://www.ui-design-engineering.com</h1>
         <h1>GW Latimer - Author, Walking Through Brambles</h1>
         <h1>G. Webster Latimer - Author, Walking Through Brambles</h1>
-        <h1>Adam L Marsh - http://www.milkandbourbon.com</h1>
+        <h1>Adam L Marsh - http://www.uiuxsandbox.com</h1>
         <h1>Adam L Marsh - http://www.myuikit.com</h1>
         <h1>G.W. Latimer - http://www.thefogandwave.com</h1>
         <h1>Webster Latimer - Author, Walking Through Brambles</h1>
-        <h1>Webster Latimer - gwlatimer.com</h1>
         <h1>Webster Latimer - thefogandwave.com</h1>
         <h1>Adam Marsh - ui-design-engineering.com</h1>
-        <h1>Adam Marsh - milkandbourbon.com</h1>
+        <h1>Adam Marsh - thefogandwave.com</h1>
         <h1>Adam Marsh - uiuxsandbox.com</h1>
         <h1>Adam Marsh - adam-marsh.com</h1>
-        <a style="color:transparent;" href="http://www.irisandpith.com">Webster Latimer - Author, "Walking Through
+        <a style="color:transparent;" href="http://www.thefogandwave.com">Webster Latimer - Author, "Walking Through
             Brambles"</a>
-        <a style="color:transparent;" href="http://www.gwlatimer.com">G. Webster Latimer - Author, "Walking Through
-            Brambles"</a>
-        <a style="color:transparent;" href="http://www.milkandbourbon.com">Adam Marsh - Author, Walking Through
-            Brambles</a>
-        <a style="color:transparent;" href="http://www.milkandbourbon.com/index.php">G.W. Latimer - Author, Walking
-            Through
-            Brambles</a>
-        <a style="color:transparent;" href="http://www.milkandbourbon.com/pages/home.php">Adam Marsh - UI/UX Designer
-            &amp;
+        <a style="color:transparent;" href="http://www.ui-design-engineering.com">Adam L Marsh - UI/UX Designer &amp;
             Developer</a>
+
         <a style="color:transparent;" href="http://www.adam-marsh.com">Adam L Marsh - UI/UX Designer &amp; Developer</a>
     </div>

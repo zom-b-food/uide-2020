@@ -1,0 +1,89 @@
+<div id="uxAccordion">
+  <div class="accordionheader">
+    <h5>
+				Articles <i class="fa fa-angle-down"></i></h5>
+  </div>
+  <div class="accordionbody">
+
+    <ul class="fa-body">
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/inc/articles/js_callbacks.php" data-lity>Understanding JS Callbacks - by Mike Vollmer</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/articles/selectors.php" data-lity>The 30 CSS Selectors You Must Memorize - by Jeffrey Way</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/articles/CSSbestPractices.php" data-lity>10 CSS Best Practices - by Jeff Couturier</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/articles/jqMethods.php" data-lity>20 jQuery Methods you Should be Using - by A. Burgess</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/articles/jqPE.php" data-lity>Extending jQuery - by Kevin Liew</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="accordionheader">
+    <h5>
+				Style Guides<i class="fa fa-angle-down"></i></h5>
+  </div>
+  <div class="accordionbody">
+    <ul class="fa-body">
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/medialoot.zip">Medialoot Style Guide</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/TypographyStyleGuide.zip">Typography Style Guide</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/WireframeKit.zip">Wireframe Kit</a>
+      </li>
+    </ul>
+  </div>
+  <div class="accordionheader">
+    <h5>
+				Templates &amp; PSDs<i class="fa fa-angle-down"></i></h5>
+  </div>
+  <div class="accordionbody">
+    <ul class="fa-body">
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/templates/index.html" class="popwin body">Bootstrap Templates</a>
+      </li>
+      <li>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/StarterTemplate.zip">Photoshop Templates</a>
+      </li>
+	    <li>
+		    <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/Mobile.psd">Mobile PSD</a>
+	    </li>
+	    <li>
+		    <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/Tablet.psd">Tablet PSD</a>
+	    </li>
+	    <li>
+		    <i class="fa fa-chevron-right" aria-hidden="true"></i><a href="/sources/Web.psd">Web PSD</a>
+	    </li>
+    </ul>
+  </div>
+</div>
+<div class="links-sites">
+	<a href="http://www.adam-marsh.com">Adam L Marsh www.adam-marsh.com</a>
+	<a href="http://www.adam-marsh.com">Adam L Marsh http://www.adam-marsh.com</a>
+	<a href="http://www.ui-design-engineering.com">Adam L Marsh www.ui-design-engineering.com</a>
+	<a href="http://www.ui-design-engineering.com">Adam L Marsh http://www.ui-design-engineering.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles www.irisandpith.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles http://www.irisandpith.com</a>
+	<a href="http://www.myuikit.com">Adam L Marsh www.myuikit.com</a>
+	<a href="http://www.myuikit.com">Adam L Marsh http://www.myuikit.com</a>
+	<a href="http://www.irisandpith.com">Webster Latimer - Author, Walking Through Brambles</a>
+</div>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script>
+  $("#uxAccordion").accordion({
+    heightStyle: "content",
+    active: 0,
+    collapsible: true,
+    header: "div.accordionheader"
+  });
+
+</script>

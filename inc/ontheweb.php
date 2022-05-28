@@ -21,15 +21,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="border-box">
-                    <a href="http://www.uiuxsandbox.com" target="_blank">
-                        <img src="/dist/img/sandbox.jpg" alt="clients">
-                    </a>
-                    <p class="text-center"><a href="http://www.uiuxsandbox.com" target="_blank">www.uiuxsandbox.com</a>
-                    </p>
-                </div>
-            </div>
+
             <div class="col-sm">
                 <div class="border-box">
                     <a href="http://www.thefogandwave.com" target="_blank">
